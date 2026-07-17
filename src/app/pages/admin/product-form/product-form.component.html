@@ -1,0 +1,104 @@
+<section class="product-form">
+  <div class="product-form__container">
+    <div class="product-form__header">
+      <h2 class="product-form__title">{{ isEditMode ? 'Editar Producto' : 'Nuevo Producto' }}</h2>
+      <a routerLink="/admin" class="product-form__back-link">&larr; Volver al listado</a>
+    </div>
+
+    @if (formError()) {
+      <p class="product-form__alert product-form__alert--error">{{ formError() }}</p>
+    }
+    @if (formSuccess()) {
+      <p class="product-form__alert product-form__alert--success">{{ formSuccess() }}</p>
+    }
+
+    <form (ngSubmit)="onSubmit()" class="product-form__form">
+      <div class="product-form__grid">
+        <div class="product-form__field">
+          <label for="id">ID</label>
+          <input id="id" type="text" [(ngModel)]="id" name="id" [disabled]="isEditMode" />
+        </div>
+
+        <div class="product-form__field">
+          <label for="nombre">Nombre *</label>
+          <input id="nombre" type="text" [(ngModel)]="nombre" name="nombre" required placeholder="Ej. Sartén Antiadherente 26cm" />
+        </div>
+
+        <div class="product-form__field">
+          <label for="categoria">Categoría *</label>
+          <input id="categoria" type="text" [(ngModel)]="categoria" name="categoria" required placeholder="Ej. Sartenes Gourmet" />
+        </div>
+
+        <div class="product-form__field">
+          <label for="precioBase">Precio base</label>
+          <input id="precioBase" type="number" [(ngModel)]="precioBase" name="precioBase" placeholder="0.00" min="0" />
+        </div>
+
+        <div class="product-form__field">
+          <label for="anticipo">Anticipo</label>
+          <input id="anticipo" type="number" [(ngModel)]="anticipo" name="anticipo" placeholder="Dejar vacío si no aplica" min="0" />
+        </div>
+
+        <div class="product-form__field">
+          <label for="saldo">Saldo a financiar</label>
+          <input id="saldo" type="number" [(ngModel)]="saldoAFinanciar" name="saldoAFinanciar" placeholder="Dejar vacío si no aplica" min="0" />
+        </div>
+      </div>
+
+      <div class="product-form__section">
+        <div class="product-form__section-header">
+          <h3>Mensualidades</h3>
+          <button type="button" class="product-form__add-btn" (click)="addMensualidadRow()">+ Agregar plazo</button>
+        </div>
+
+        @if (mensualidadesRows().length === 0) {
+          <p class="product-form__empty-hint">Sin plazos de mensualidad definidos.</p>
+        }
+
+        @for (row of mensualidadesRows(); track $index) {
+          <div class="product-form__dynamic-row">
+            <input
+              type="text"
+              placeholder="Plazo (ej. 3M)"
+              [ngModel]="row.plazo"
+              (ngModelChange)="updateMensualidadPlazo($index, $event)"
+              [name]="'plazo-' + $index" />
+            <input
+              type="text"
+              placeholder="Detalle (ej. 3 Mens $1,00)"
+              [ngModel]="row.detalle"
+              (ngModelChange)="updateMensualidadDetalle($index, $event)"
+              [name]="'detalle-' + $index" />
+            <button type="button" class="product-form__remove-btn" (click)="removeMensualidadRow($index)">Eliminar</button>
+          </div>
+        }
+      </div>
+
+      <div class="product-form__section">
+        <div class="product-form__section-header">
+          <h3>Galería de imágenes</h3>
+          <button type="button" class="product-form__add-btn" (click)="addImagenRow()">+ Agregar imagen</button>
+        </div>
+
+        @for (img of imagenesRows(); track $index) {
+          <div class="product-form__dynamic-row">
+            <input
+              type="text"
+              placeholder="https://..."
+              [ngModel]="img"
+              (ngModelChange)="updateImagenValue($index, $event)"
+              [name]="'imagen-' + $index" />
+            <button type="button" class="product-form__remove-btn" (click)="removeImagenRow($index)">Eliminar</button>
+          </div>
+        }
+      </div>
+
+      <div class="product-form__actions">
+        <button type="button" class="product-form__btn product-form__btn--secondary" (click)="cancel()">Cancelar</button>
+        <button type="submit" class="product-form__btn product-form__btn--primary">
+          {{ isEditMode ? 'Guardar Cambios' : 'Agregar Producto' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</section>

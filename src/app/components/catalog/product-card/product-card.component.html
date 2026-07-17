@@ -1,0 +1,43 @@
+<article class="product-card">
+  <div class="product-card__image-wrapper">
+    <img [src]="mainImage()" [alt]="product.nombre" class="product-card__image" loading="lazy" />
+    <span class="product-card__badge">{{ product.categoria || 'Sin categoría' }}</span>
+    @if (images().length > 1) {
+      <span class="product-card__gallery-count">+{{ images().length - 1 }} fotos</span>
+    }
+  </div>
+  <div class="product-card__body">
+    <h3 class="product-card__title">{{ product.nombre || 'Producto sin nombre' }}</h3>
+
+    <div class="product-card__pricing">
+      @if (hasPrice()) {
+        <span class="product-card__price">{{ product.precio_base | currency:'MXN':'symbol':'1.0-0' }}</span>
+      } @else {
+        <span class="product-card__price product-card__price--na">Precio no disponible</span>
+      }
+
+      @if (hasFinancing()) {
+        <p class="product-card__financing">
+          Anticipo {{ product.anticipo | currency:'MXN':'symbol':'1.0-0' }} ·
+          Saldo {{ product.saldo_a_financiar | currency:'MXN':'symbol':'1.0-0' }}
+        </p>
+      } @else {
+        <p class="product-card__financing product-card__financing--na">Disponible de contado</p>
+      }
+    </div>
+
+    @if (hasMensualidades()) {
+      <ul class="product-card__mensualidades">
+        @for (opcion of mensualidadesList(); track opcion.plazo) {
+          <li class="product-card__mensualidad-item">{{ opcion.plazo }}: {{ opcion.detalle }}</li>
+        }
+      </ul>
+    } @else {
+      <p class="product-card__mensualidades--na">Sin plan de mensualidades</p>
+    }
+
+    <div class="product-card__footer">
+      <button type="button" class="product-card__btn">Cotizar</button>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,2298 @@
+[
+  {
+    "id": "PROD-001",
+    "nombre": "Aro de 16 cm - Rojo",
+    "categoria": "Accesorios",
+    "precio_base": 307,
+    "anticipo": 2000,
+    "saldo_a_financiar": 4000,
+    "mensualidades": {
+      "3M": "3 Mens $1,00",
+      "6M": "6 Mens $0.5"
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-001/img1.jpg",
+      "https://demo-images.example.com/products/PROD-001/img2.jpg",
+      "https://demo-images.example.com/products/PROD-001/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-002",
+    "nombre": "Aro de 20 cm - Rojo",
+    "categoria": "Accesorios",
+    "precio_base": 339,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-002/img1.jpg",
+      "https://demo-images.example.com/products/PROD-002/img2.jpg",
+      "https://demo-images.example.com/products/PROD-002/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-003",
+    "nombre": "Aro de 26 cm - Rojo",
+    "categoria": "Accesorios",
+    "precio_base": 435,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-003/img1.jpg",
+      "https://demo-images.example.com/products/PROD-003/img2.jpg",
+      "https://demo-images.example.com/products/PROD-003/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-004",
+    "nombre": "Aro de 35 cm - Rojo",
+    "categoria": "Accesorios",
+    "precio_base": 537,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-004/img1.jpg",
+      "https://demo-images.example.com/products/PROD-004/img2.jpg",
+      "https://demo-images.example.com/products/PROD-004/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-005",
+    "nombre": "Aro para Tapa Alta - Rojo",
+    "categoria": "Accesorios",
+    "precio_base": 520,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-005/img1.jpg",
+      "https://demo-images.example.com/products/PROD-005/img2.jpg",
+      "https://demo-images.example.com/products/PROD-005/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-006",
+    "nombre": "Juego de aros Set de 5 Piezas",
+    "categoria": "Accesorios",
+    "precio_base": 767,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-006/img1.jpg",
+      "https://demo-images.example.com/products/PROD-006/img2.jpg",
+      "https://demo-images.example.com/products/PROD-006/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-007",
+    "nombre": "Juego de aros Set de 7 Piezas",
+    "categoria": "Accesorios",
+    "precio_base": 1088,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-007/img1.jpg",
+      "https://demo-images.example.com/products/PROD-007/img2.jpg",
+      "https://demo-images.example.com/products/PROD-007/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-008",
+    "nombre": "Juego de aros Set de 8 Piezas",
+    "categoria": "Accesorios",
+    "precio_base": 1619,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-008/img1.jpg",
+      "https://demo-images.example.com/products/PROD-008/img2.jpg",
+      "https://demo-images.example.com/products/PROD-008/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-009",
+    "nombre": "Juego de aros Set de 10 Piezas",
+    "categoria": "Accesorios",
+    "precio_base": 1594,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-009/img1.jpg",
+      "https://demo-images.example.com/products/PROD-009/img2.jpg",
+      "https://demo-images.example.com/products/PROD-009/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-010",
+    "nombre": "Juego de aros Set de 15 Piezas",
+    "categoria": "Accesorios",
+    "precio_base": 2708,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-010/img1.jpg",
+      "https://demo-images.example.com/products/PROD-010/img2.jpg",
+      "https://demo-images.example.com/products/PROD-010/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-011",
+    "nombre": "Juego de aros Set de 18 Piezas",
+    "categoria": "Accesorios",
+    "precio_base": 3213,
+    "anticipo": 482,
+    "saldo_a_financiar": 2731,
+    "mensualidades": {
+      "3": 911
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-011/img1.jpg",
+      "https://demo-images.example.com/products/PROD-011/img2.jpg",
+      "https://demo-images.example.com/products/PROD-011/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-012",
+    "nombre": "Royalshine",
+    "categoria": "Accesorios",
+    "precio_base": 209,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-012/img1.jpg",
+      "https://demo-images.example.com/products/PROD-012/img2.jpg",
+      "https://demo-images.example.com/products/PROD-012/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-013",
+    "nombre": "Jgo de 4 Tazas con Pared Doble",
+    "categoria": "Accesorios",
+    "precio_base": 3991,
+    "anticipo": 599,
+    "saldo_a_financiar": 3392,
+    "mensualidades": {
+      "3": 1131
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-013/img1.jpg",
+      "https://demo-images.example.com/products/PROD-013/img2.jpg",
+      "https://demo-images.example.com/products/PROD-013/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-014",
+    "nombre": "Juego 2 Tazas 16oz con Pared Doble",
+    "categoria": "Accesorios",
+    "precio_base": 3068,
+    "anticipo": 460,
+    "saldo_a_financiar": 2608,
+    "mensualidades": {
+      "3": 870
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-014/img1.jpg",
+      "https://demo-images.example.com/products/PROD-014/img2.jpg",
+      "https://demo-images.example.com/products/PROD-014/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-015",
+    "nombre": "Jgo. Azucar/Jarro P/Leche Acero-2pz",
+    "categoria": "Accesorios",
+    "precio_base": 2882,
+    "anticipo": 432,
+    "saldo_a_financiar": 2450,
+    "mensualidades": {
+      "3": 817
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-015/img1.jpg",
+      "https://demo-images.example.com/products/PROD-015/img2.jpg",
+      "https://demo-images.example.com/products/PROD-015/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-016",
+    "nombre": "Set 4 copas Gala",
+    "categoria": "Accesorios",
+    "precio_base": 3519,
+    "anticipo": 528,
+    "saldo_a_financiar": 2991,
+    "mensualidades": {
+      "3": 997
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-016/img1.jpg",
+      "https://demo-images.example.com/products/PROD-016/img2.jpg",
+      "https://demo-images.example.com/products/PROD-016/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-017",
+    "nombre": "Vasos Agua 16oz Pqt de 4 London",
+    "categoria": "Accesorios",
+    "precio_base": 1429,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-017/img1.jpg",
+      "https://demo-images.example.com/products/PROD-017/img2.jpg",
+      "https://demo-images.example.com/products/PROD-017/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-018",
+    "nombre": "Paquete de 4 Vasos de 10 Onzas",
+    "categoria": "Accesorios",
+    "precio_base": 1089,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-018/img1.jpg",
+      "https://demo-images.example.com/products/PROD-018/img2.jpg",
+      "https://demo-images.example.com/products/PROD-018/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-019",
+    "nombre": "Tequilas Glass RP Logo 4-Pack",
+    "categoria": "Accesorios",
+    "precio_base": 649,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-019/img1.jpg",
+      "https://demo-images.example.com/products/PROD-019/img2.jpg",
+      "https://demo-images.example.com/products/PROD-019/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-020",
+    "nombre": "6 Recipientes RP c/Capacidad de 2 Tzs",
+    "categoria": "Accesorios",
+    "precio_base": 1231,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-020/img1.jpg",
+      "https://demo-images.example.com/products/PROD-020/img2.jpg",
+      "https://demo-images.example.com/products/PROD-020/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-021",
+    "nombre": "Recipientes de Comida RP - 8 Piezas",
+    "categoria": "Accesorios",
+    "precio_base": 1726,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-021/img1.jpg",
+      "https://demo-images.example.com/products/PROD-021/img2.jpg",
+      "https://demo-images.example.com/products/PROD-021/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-022",
+    "nombre": "Jgo Deluxe 3pzs",
+    "categoria": "Accesorios",
+    "precio_base": 1265,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-022/img1.jpg",
+      "https://demo-images.example.com/products/PROD-022/img2.jpg",
+      "https://demo-images.example.com/products/PROD-022/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-023",
+    "nombre": "Jgo Complmntr 3pzs",
+    "categoria": "Accesorios",
+    "precio_base": 1265,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-023/img1.jpg",
+      "https://demo-images.example.com/products/PROD-023/img2.jpg",
+      "https://demo-images.example.com/products/PROD-023/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-024",
+    "nombre": "Jgo. de 2 Copas P/Helado",
+    "categoria": "Accesorios",
+    "precio_base": 1007,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-024/img1.jpg",
+      "https://demo-images.example.com/products/PROD-024/img2.jpg",
+      "https://demo-images.example.com/products/PROD-024/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-025",
+    "nombre": "Destapador Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 1007,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-025/img1.jpg",
+      "https://demo-images.example.com/products/PROD-025/img2.jpg",
+      "https://demo-images.example.com/products/PROD-025/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-026",
+    "nombre": "Jgo. 2 Espátulas de Silicona PS",
+    "categoria": "Accesorios",
+    "precio_base": 1859,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-026/img1.jpg",
+      "https://demo-images.example.com/products/PROD-026/img2.jpg",
+      "https://demo-images.example.com/products/PROD-026/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-027",
+    "nombre": "Rallador Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 1145,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-027/img1.jpg",
+      "https://demo-images.example.com/products/PROD-027/img2.jpg",
+      "https://demo-images.example.com/products/PROD-027/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-028",
+    "nombre": "Espátula Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 1272,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-028/img1.jpg",
+      "https://demo-images.example.com/products/PROD-028/img2.jpg",
+      "https://demo-images.example.com/products/PROD-028/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-029",
+    "nombre": "Batidor de Globo Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 1272,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-029/img1.jpg",
+      "https://demo-images.example.com/products/PROD-029/img2.jpg",
+      "https://demo-images.example.com/products/PROD-029/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-030",
+    "nombre": "Pelador Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 1145,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-030/img1.jpg",
+      "https://demo-images.example.com/products/PROD-030/img2.jpg",
+      "https://demo-images.example.com/products/PROD-030/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-031",
+    "nombre": "Cortapizza Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 1420,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-031/img1.jpg",
+      "https://demo-images.example.com/products/PROD-031/img2.jpg",
+      "https://demo-images.example.com/products/PROD-031/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-032",
+    "nombre": "Machacador Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 941,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-032/img1.jpg",
+      "https://demo-images.example.com/products/PROD-032/img2.jpg",
+      "https://demo-images.example.com/products/PROD-032/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-033",
+    "nombre": "Espátula P/Helados Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 1217,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-033/img1.jpg",
+      "https://demo-images.example.com/products/PROD-033/img2.jpg",
+      "https://demo-images.example.com/products/PROD-033/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-034",
+    "nombre": "Pelador Vertical Precision Series",
+    "categoria": "Accesorios",
+    "precio_base": 1145,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-034/img1.jpg",
+      "https://demo-images.example.com/products/PROD-034/img2.jpg",
+      "https://demo-images.example.com/products/PROD-034/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-035",
+    "nombre": "Set de 5 Tazones C/Rallador",
+    "categoria": "Productos Premium",
+    "precio_base": 12890,
+    "anticipo": 1934,
+    "saldo_a_financiar": 10956,
+    "mensualidades": {
+      "3": 3652,
+      "12": 1129,
+      "18": 822
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-035/img1.jpg",
+      "https://demo-images.example.com/products/PROD-035/img2.jpg",
+      "https://demo-images.example.com/products/PROD-035/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-036",
+    "nombre": "Set de tazones de 3 piezas",
+    "categoria": "Productos Premium",
+    "precio_base": 3835,
+    "anticipo": 575,
+    "saldo_a_financiar": 3260,
+    "mensualidades": {
+      "3": 1087
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-036/img1.jpg",
+      "https://demo-images.example.com/products/PROD-036/img2.jpg",
+      "https://demo-images.example.com/products/PROD-036/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-037",
+    "nombre": "Set de 4 tazones de 3 QT",
+    "categoria": "Productos Premium",
+    "precio_base": 5490,
+    "anticipo": 824,
+    "saldo_a_financiar": 4666,
+    "mensualidades": {
+      "3": 1556
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-037/img1.jpg",
+      "https://demo-images.example.com/products/PROD-037/img2.jpg",
+      "https://demo-images.example.com/products/PROD-037/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-038",
+    "nombre": "Tazón Mezclar 10QT",
+    "categoria": "Productos Premium",
+    "precio_base": 2529,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-038/img1.jpg",
+      "https://demo-images.example.com/products/PROD-038/img2.jpg",
+      "https://demo-images.example.com/products/PROD-038/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-039",
+    "nombre": "Jgo de Utensilios de Cocina 6 pzas",
+    "categoria": "Productos Premium",
+    "precio_base": 8129,
+    "anticipo": 1219,
+    "saldo_a_financiar": 6910,
+    "mensualidades": {
+      "3": 2304
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-039/img1.jpg",
+      "https://demo-images.example.com/products/PROD-039/img2.jpg",
+      "https://demo-images.example.com/products/PROD-039/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-040",
+    "nombre": "Jgo Cubiertos American-24pzs-18/8 MX",
+    "categoria": "Productos Premium",
+    "precio_base": 7139,
+    "anticipo": 1071,
+    "saldo_a_financiar": 6068,
+    "mensualidades": {
+      "3": 2023
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-040/img1.jpg",
+      "https://demo-images.example.com/products/PROD-040/img2.jpg",
+      "https://demo-images.example.com/products/PROD-040/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-041",
+    "nombre": "Tazón 5 Cuartos Pared Doble + Tapa",
+    "categoria": "Productos Premium",
+    "precio_base": 1704,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-041/img1.jpg",
+      "https://demo-images.example.com/products/PROD-041/img2.jpg",
+      "https://demo-images.example.com/products/PROD-041/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-042",
+    "nombre": "Recipiente para Utensilios",
+    "categoria": "Productos Premium",
+    "precio_base": 1483,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-042/img1.jpg",
+      "https://demo-images.example.com/products/PROD-042/img2.jpg",
+      "https://demo-images.example.com/products/PROD-042/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-043",
+    "nombre": "Cuchillo Santoku Damascus de 5\"",
+    "categoria": "Cuchillería",
+    "precio_base": 5939,
+    "anticipo": 891,
+    "saldo_a_financiar": 5048,
+    "mensualidades": {
+      "3": 1683
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-043/img1.jpg",
+      "https://demo-images.example.com/products/PROD-043/img2.jpg",
+      "https://demo-images.example.com/products/PROD-043/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-044",
+    "nombre": "RP Cuchillo Santoku 5\"",
+    "categoria": "Cuchillería",
+    "precio_base": 1539,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-044/img1.jpg",
+      "https://demo-images.example.com/products/PROD-044/img2.jpg",
+      "https://demo-images.example.com/products/PROD-044/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-045",
+    "nombre": "RP Cuchillo Santoku 3.5\"",
+    "categoria": "Cuchillería",
+    "precio_base": 1099,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-045/img1.jpg",
+      "https://demo-images.example.com/products/PROD-045/img2.jpg",
+      "https://demo-images.example.com/products/PROD-045/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-046",
+    "nombre": "Maquina de Ensaladas Royal Prestige",
+    "categoria": "Accesorios",
+    "precio_base": 14289,
+    "anticipo": 2143,
+    "saldo_a_financiar": 12146,
+    "mensualidades": {
+      "3": 4049,
+      "12": 1252,
+      "18": 911
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-046/img1.jpg",
+      "https://demo-images.example.com/products/PROD-046/img2.jpg",
+      "https://demo-images.example.com/products/PROD-046/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-047",
+    "nombre": "Afilador de Cuchillos RP Inox",
+    "categoria": "Cuchillería",
+    "precio_base": 4069,
+    "anticipo": 610,
+    "saldo_a_financiar": 3459,
+    "mensualidades": {
+      "3": 1153
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-047/img1.jpg",
+      "https://demo-images.example.com/products/PROD-047/img2.jpg",
+      "https://demo-images.example.com/products/PROD-047/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-048",
+    "nombre": "Tabla de Bambú con Borde Silicona",
+    "categoria": "Accesorios",
+    "precio_base": 2529,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-048/img1.jpg",
+      "https://demo-images.example.com/products/PROD-048/img2.jpg",
+      "https://demo-images.example.com/products/PROD-048/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-049",
+    "nombre": "Tabla de Bambú Peq",
+    "categoria": "Accesorios",
+    "precio_base": 1649,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-049/img1.jpg",
+      "https://demo-images.example.com/products/PROD-049/img2.jpg",
+      "https://demo-images.example.com/products/PROD-049/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-050",
+    "nombre": "Royal Prestige Smart Temp",
+    "categoria": "Accesorios",
+    "precio_base": 1099,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-050/img1.jpg",
+      "https://demo-images.example.com/products/PROD-050/img2.jpg",
+      "https://demo-images.example.com/products/PROD-050/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-051",
+    "nombre": "Base Magnética P/Ollas",
+    "categoria": "Accesorios",
+    "precio_base": 936,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-051/img1.jpg",
+      "https://demo-images.example.com/products/PROD-051/img2.jpg",
+      "https://demo-images.example.com/products/PROD-051/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-052",
+    "nombre": "Royal Prestige Expertea",
+    "categoria": "Productos Premium",
+    "precio_base": 14490,
+    "anticipo": 2174,
+    "saldo_a_financiar": 12316,
+    "mensualidades": {
+      "3": 4106,
+      "12": 1269,
+      "18": 924
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-052/img1.jpg",
+      "https://demo-images.example.com/products/PROD-052/img2.jpg",
+      "https://demo-images.example.com/products/PROD-052/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-053",
+    "nombre": "Royal Prestige Barista",
+    "categoria": "Productos Premium",
+    "precio_base": 14490,
+    "anticipo": 2174,
+    "saldo_a_financiar": 12316,
+    "mensualidades": {
+      "3": 4106,
+      "12": 1269,
+      "18": 924
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-053/img1.jpg",
+      "https://demo-images.example.com/products/PROD-053/img2.jpg",
+      "https://demo-images.example.com/products/PROD-053/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-054",
+    "nombre": "Cafetera Royal Espresso",
+    "categoria": "Productos Premium",
+    "precio_base": 4356,
+    "anticipo": 653,
+    "saldo_a_financiar": 3703,
+    "mensualidades": {
+      "3": 1235
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-054/img1.jpg",
+      "https://demo-images.example.com/products/PROD-054/img2.jpg",
+      "https://demo-images.example.com/products/PROD-054/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-055",
+    "nombre": "RP Chocolatera",
+    "categoria": "Productos Premium",
+    "precio_base": 8350,
+    "anticipo": 1253,
+    "saldo_a_financiar": 7097,
+    "mensualidades": {
+      "3": 2366
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-055/img1.jpg",
+      "https://demo-images.example.com/products/PROD-055/img2.jpg",
+      "https://demo-images.example.com/products/PROD-055/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-056",
+    "nombre": "Hervidor 1/2 QT",
+    "categoria": "Productos Premium",
+    "precio_base": 3289,
+    "anticipo": 493,
+    "saldo_a_financiar": 2796,
+    "mensualidades": {
+      "3": 932
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-056/img1.jpg",
+      "https://demo-images.example.com/products/PROD-056/img2.jpg",
+      "https://demo-images.example.com/products/PROD-056/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-057",
+    "nombre": "Cafetera Espresso 10 Tazas Dble Pared",
+    "categoria": "Productos Premium",
+    "precio_base": 5331,
+    "anticipo": 800,
+    "saldo_a_financiar": 4531,
+    "mensualidades": {
+      "3": 1511
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-057/img1.jpg",
+      "https://demo-images.example.com/products/PROD-057/img2.jpg",
+      "https://demo-images.example.com/products/PROD-057/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-058",
+    "nombre": "Hervidor 1 QT",
+    "categoria": "Productos Premium",
+    "precio_base": 4179,
+    "anticipo": 627,
+    "saldo_a_financiar": 3552,
+    "mensualidades": {
+      "3": 1184
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-058/img1.jpg",
+      "https://demo-images.example.com/products/PROD-058/img2.jpg",
+      "https://demo-images.example.com/products/PROD-058/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-059",
+    "nombre": "Kit Completo Baristart",
+    "categoria": "Productos Premium",
+    "precio_base": 1099,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-059/img1.jpg",
+      "https://demo-images.example.com/products/PROD-059/img2.jpg",
+      "https://demo-images.example.com/products/PROD-059/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-060",
+    "nombre": "Juego para Rebanar 4pzs",
+    "categoria": "Cuchillería",
+    "precio_base": 8788,
+    "anticipo": 1318,
+    "saldo_a_financiar": 7470,
+    "mensualidades": {
+      "3": 2490
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-060/img1.jpg",
+      "https://demo-images.example.com/products/PROD-060/img2.jpg",
+      "https://demo-images.example.com/products/PROD-060/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-061",
+    "nombre": "Juego de Cuchillos 5pzs",
+    "categoria": "Cuchillería",
+    "precio_base": 12089,
+    "anticipo": 1813,
+    "saldo_a_financiar": 10276,
+    "mensualidades": {
+      "3": 3426,
+      "12": 1059
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-061/img1.jpg",
+      "https://demo-images.example.com/products/PROD-061/img2.jpg",
+      "https://demo-images.example.com/products/PROD-061/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-062",
+    "nombre": "All-in-One Cuchillos 17pzs",
+    "categoria": "Cuchillería",
+    "precio_base": 36288,
+    "anticipo": 5443,
+    "saldo_a_financiar": 30845,
+    "mensualidades": {
+      "3": 10282,
+      "12": 3178,
+      "18": 2314,
+      "24": 1913,
+      "29": 1697
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-062/img1.jpg",
+      "https://demo-images.example.com/products/PROD-062/img2.jpg",
+      "https://demo-images.example.com/products/PROD-062/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-063",
+    "nombre": "Cuchillos P/Carne 4 pzs",
+    "categoria": "Cuchillería",
+    "precio_base": 5709,
+    "anticipo": 856,
+    "saldo_a_financiar": 4853,
+    "mensualidades": {
+      "3": 1618
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-063/img1.jpg",
+      "https://demo-images.example.com/products/PROD-063/img2.jpg",
+      "https://demo-images.example.com/products/PROD-063/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-064",
+    "nombre": "Jgo de 4 Cuchillos P/Churrasco",
+    "categoria": "Cuchillería",
+    "precio_base": 6037,
+    "anticipo": 906,
+    "saldo_a_financiar": 5131,
+    "mensualidades": {
+      "3": 1711
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-064/img1.jpg",
+      "https://demo-images.example.com/products/PROD-064/img2.jpg",
+      "https://demo-images.example.com/products/PROD-064/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-065",
+    "nombre": "RP Bloque para Cuchillos",
+    "categoria": "Cuchillería",
+    "precio_base": 6589,
+    "anticipo": 988,
+    "saldo_a_financiar": 5601,
+    "mensualidades": {
+      "3": 1867
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-065/img1.jpg",
+      "https://demo-images.example.com/products/PROD-065/img2.jpg",
+      "https://demo-images.example.com/products/PROD-065/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-066",
+    "nombre": "Cuchillo para Pelar 2.75\"",
+    "categoria": "Cuchillería",
+    "precio_base": 1529,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-066/img1.jpg",
+      "https://demo-images.example.com/products/PROD-066/img2.jpg",
+      "https://demo-images.example.com/products/PROD-066/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-067",
+    "nombre": "RP Cuchillo Multiuso 5\"",
+    "categoria": "Cuchillería",
+    "precio_base": 1749,
+    "anticipo": 262,
+    "saldo_a_financiar": 1487,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-067/img1.jpg",
+      "https://demo-images.example.com/products/PROD-067/img2.jpg",
+      "https://demo-images.example.com/products/PROD-067/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-068",
+    "nombre": "RP Hacha de Cocina 7\"",
+    "categoria": "Cuchillería",
+    "precio_base": 3629,
+    "anticipo": 544,
+    "saldo_a_financiar": 3085,
+    "mensualidades": {
+      "3": 1029
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-068/img1.jpg",
+      "https://demo-images.example.com/products/PROD-068/img2.jpg",
+      "https://demo-images.example.com/products/PROD-068/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-069",
+    "nombre": "Filtro Aire Royal Prestige 120-120V",
+    "categoria": "Equipos de Filtración",
+    "precio_base": 33990,
+    "anticipo": 5099,
+    "saldo_a_financiar": 28891,
+    "mensualidades": {
+      "3": 9631,
+      "12": 2976,
+      "18": 2167,
+      "24": 1792,
+      "29": 1590
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-069/img1.jpg",
+      "https://demo-images.example.com/products/PROD-069/img2.jpg",
+      "https://demo-images.example.com/products/PROD-069/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-070",
+    "nombre": "Paq Reemplazo P/Filtro de Aire",
+    "categoria": "Equipos de Filtración",
+    "precio_base": 4619,
+    "anticipo": 693,
+    "saldo_a_financiar": 3926,
+    "mensualidades": {
+      "3": 1309
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-070/img1.jpg",
+      "https://demo-images.example.com/products/PROD-070/img2.jpg",
+      "https://demo-images.example.com/products/PROD-070/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-071",
+    "nombre": "Filtro de Agua Frescapure 3500",
+    "categoria": "Equipos de Filtración",
+    "precio_base": 18689,
+    "anticipo": 2803,
+    "saldo_a_financiar": 15886,
+    "mensualidades": {
+      "3": 5296,
+      "12": 1637,
+      "18": 1192,
+      "24": 985,
+      "29": 874
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-071/img1.jpg",
+      "https://demo-images.example.com/products/PROD-071/img2.jpg",
+      "https://demo-images.example.com/products/PROD-071/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-072",
+    "nombre": "Cartch de Rmplazo C/BTR-FP3500",
+    "categoria": "Equipos de Filtración",
+    "precio_base": 3735,
+    "anticipo": 560,
+    "saldo_a_financiar": 3175,
+    "mensualidades": {
+      "3": 1059
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-072/img1.jpg",
+      "https://demo-images.example.com/products/PROD-072/img2.jpg",
+      "https://demo-images.example.com/products/PROD-072/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-073",
+    "nombre": "Pre-Filtro de 10\" con 3 Cartuchos",
+    "categoria": "Equipos de Filtración",
+    "precio_base": 3849,
+    "anticipo": 577,
+    "saldo_a_financiar": 3272,
+    "mensualidades": {
+      "3": 1091
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-073/img1.jpg",
+      "https://demo-images.example.com/products/PROD-073/img2.jpg",
+      "https://demo-images.example.com/products/PROD-073/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-074",
+    "nombre": "Conjunto Batidor & Cepillo Blender Go",
+    "categoria": "Power Blender",
+    "precio_base": 1249,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-074/img1.jpg",
+      "https://demo-images.example.com/products/PROD-074/img2.jpg",
+      "https://demo-images.example.com/products/PROD-074/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-075",
+    "nombre": "Power Blender Go + 4 Accesorios",
+    "categoria": "Power Blender",
+    "precio_base": 13739,
+    "anticipo": 2061,
+    "saldo_a_financiar": 11678,
+    "mensualidades": {
+      "3": 3893,
+      "12": 1203,
+      "18": 876
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-075/img1.jpg",
+      "https://demo-images.example.com/products/PROD-075/img2.jpg",
+      "https://demo-images.example.com/products/PROD-075/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-076",
+    "nombre": "RP Power Blender Go c/Batidor y Cepillo",
+    "categoria": "Power Blender",
+    "precio_base": 11539,
+    "anticipo": 1731,
+    "saldo_a_financiar": 9808,
+    "mensualidades": {
+      "3": 3270,
+      "12": 1011
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-076/img1.jpg",
+      "https://demo-images.example.com/products/PROD-076/img2.jpg",
+      "https://demo-images.example.com/products/PROD-076/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-077",
+    "nombre": "Conjunto Picadora y Taza Power Blender Go",
+    "categoria": "Power Blender",
+    "precio_base": 3490,
+    "anticipo": 524,
+    "saldo_a_financiar": 2966,
+    "mensualidades": {
+      "3": 989
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-077/img1.jpg",
+      "https://demo-images.example.com/products/PROD-077/img2.jpg",
+      "https://demo-images.example.com/products/PROD-077/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-078",
+    "nombre": "Max Cup",
+    "categoria": "Power Blender",
+    "precio_base": 5489,
+    "anticipo": 823,
+    "saldo_a_financiar": 4666,
+    "mensualidades": {
+      "3": 1556
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-078/img1.jpg",
+      "https://demo-images.example.com/products/PROD-078/img2.jpg",
+      "https://demo-images.example.com/products/PROD-078/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-079",
+    "nombre": "Jarra Tritan PB Max",
+    "categoria": "Power Blender",
+    "precio_base": 4389,
+    "anticipo": 658,
+    "saldo_a_financiar": 3731,
+    "mensualidades": {
+      "3": 1244
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-079/img1.jpg",
+      "https://demo-images.example.com/products/PROD-079/img2.jpg",
+      "https://demo-images.example.com/products/PROD-079/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-080",
+    "nombre": "Power Blender Max",
+    "categoria": "Power Blender",
+    "precio_base": 21990,
+    "anticipo": 3299,
+    "saldo_a_financiar": 18691,
+    "mensualidades": {
+      "3": 6231,
+      "12": 1926,
+      "18": 1402,
+      "24": 1159,
+      "29": 1029
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-080/img1.jpg",
+      "https://demo-images.example.com/products/PROD-080/img2.jpg",
+      "https://demo-images.example.com/products/PROD-080/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-081",
+    "nombre": "Fresh Max",
+    "categoria": "Power Blender",
+    "precio_base": 5489,
+    "anticipo": 823,
+    "saldo_a_financiar": 4666,
+    "mensualidades": {
+      "3": 1556
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-081/img1.jpg",
+      "https://demo-images.example.com/products/PROD-081/img2.jpg",
+      "https://demo-images.example.com/products/PROD-081/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-082",
+    "nombre": "Olla de Presión RP 6L",
+    "categoria": "Ollas de Presión",
+    "precio_base": 19990,
+    "anticipo": 2999,
+    "saldo_a_financiar": 16991,
+    "mensualidades": {
+      "3": 5664,
+      "12": 1751,
+      "18": 1275,
+      "24": 1054,
+      "29": 935
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-082/img1.jpg",
+      "https://demo-images.example.com/products/PROD-082/img2.jpg",
+      "https://demo-images.example.com/products/PROD-082/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-083",
+    "nombre": "Olla de Presión RP 10L",
+    "categoria": "Ollas de Presión",
+    "precio_base": 24990,
+    "anticipo": 3749,
+    "saldo_a_financiar": 21241,
+    "mensualidades": {
+      "3": 7081,
+      "12": 2188,
+      "18": 1594,
+      "24": 1317,
+      "29": 1169
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-083/img1.jpg",
+      "https://demo-images.example.com/products/PROD-083/img2.jpg",
+      "https://demo-images.example.com/products/PROD-083/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-084",
+    "nombre": "Extractor de Jugos RP con Recetario",
+    "categoria": "Productos Premium",
+    "precio_base": 33490,
+    "anticipo": 5024,
+    "saldo_a_financiar": 28466,
+    "mensualidades": {
+      "3": 9489,
+      "12": 2932,
+      "18": 2135,
+      "24": 1765,
+      "29": 1566
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-084/img1.jpg",
+      "https://demo-images.example.com/products/PROD-084/img2.jpg",
+      "https://demo-images.example.com/products/PROD-084/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-085",
+    "nombre": "3 Coladores Extractor",
+    "categoria": "Productos Premium",
+    "precio_base": 6049,
+    "anticipo": 907,
+    "saldo_a_financiar": 5142,
+    "mensualidades": {
+      "3": 1714
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-085/img1.jpg",
+      "https://demo-images.example.com/products/PROD-085/img2.jpg",
+      "https://demo-images.example.com/products/PROD-085/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-086",
+    "nombre": "Exprimidor de Cítricos",
+    "categoria": "Productos Premium",
+    "precio_base": 3289,
+    "anticipo": 493,
+    "saldo_a_financiar": 2796,
+    "mensualidades": {
+      "3": 932
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-086/img1.jpg",
+      "https://demo-images.example.com/products/PROD-086/img2.jpg",
+      "https://demo-images.example.com/products/PROD-086/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-087",
+    "nombre": "Precision Cook",
+    "categoria": "Productos Premium",
+    "precio_base": 18688,
+    "anticipo": 2803,
+    "saldo_a_financiar": 15885,
+    "mensualidades": {
+      "3": 5295,
+      "12": 1637,
+      "18": 1192,
+      "24": 985,
+      "29": 874
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-087/img1.jpg",
+      "https://demo-images.example.com/products/PROD-087/img2.jpg",
+      "https://demo-images.example.com/products/PROD-087/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-088",
+    "nombre": "Pavera Ovalada Royal Prestige",
+    "categoria": "Productos Premium",
+    "precio_base": 21449,
+    "anticipo": 3217,
+    "saldo_a_financiar": 18232,
+    "mensualidades": {
+      "3": 6078,
+      "12": 1878,
+      "18": 1368,
+      "24": 1131,
+      "29": 1003
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-088/img1.jpg",
+      "https://demo-images.example.com/products/PROD-088/img2.jpg",
+      "https://demo-images.example.com/products/PROD-088/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-089",
+    "nombre": "Plancha Sencilla 28cm",
+    "categoria": "Productos Premium",
+    "precio_base": 7656,
+    "anticipo": 1148,
+    "saldo_a_financiar": 6508,
+    "mensualidades": {
+      "3": 2170
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-089/img1.jpg",
+      "https://demo-images.example.com/products/PROD-089/img2.jpg",
+      "https://demo-images.example.com/products/PROD-089/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-090",
+    "nombre": "Parrilla Redonda de 30cm",
+    "categoria": "Productos Premium",
+    "precio_base": 9889,
+    "anticipo": 1483,
+    "saldo_a_financiar": 8406,
+    "mensualidades": {
+      "3": 2802,
+      "12": 866
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-090/img1.jpg",
+      "https://demo-images.example.com/products/PROD-090/img2.jpg",
+      "https://demo-images.example.com/products/PROD-090/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-091",
+    "nombre": "Plancha Doble",
+    "categoria": "Productos Premium",
+    "precio_base": 12429,
+    "anticipo": 1864,
+    "saldo_a_financiar": 10565,
+    "mensualidades": {
+      "3": 3522,
+      "12": 1089,
+      "18": 793,
+      "24": 656,
+      "29": 582
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-091/img1.jpg",
+      "https://demo-images.example.com/products/PROD-091/img2.jpg",
+      "https://demo-images.example.com/products/PROD-091/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-092",
+    "nombre": "Warmer Pro",
+    "categoria": "Productos Premium",
+    "precio_base": 4279,
+    "anticipo": 642,
+    "saldo_a_financiar": 3637,
+    "mensualidades": {
+      "3": 1213
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-092/img1.jpg",
+      "https://demo-images.example.com/products/PROD-092/img2.jpg",
+      "https://demo-images.example.com/products/PROD-092/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-093",
+    "nombre": "Olla RP de 12 QT/30cm con Tapa",
+    "categoria": "Ollas Grandes",
+    "precio_base": 21439,
+    "anticipo": null,
+    "saldo_a_financiar": 18223,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-093/img1.jpg",
+      "https://demo-images.example.com/products/PROD-093/img2.jpg",
+      "https://demo-images.example.com/products/PROD-093/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-094",
+    "nombre": "Olla RP de 20 QT/35cm con Tapa",
+    "categoria": "Ollas Grandes",
+    "precio_base": 23859,
+    "anticipo": 3579,
+    "saldo_a_financiar": 20280,
+    "mensualidades": {
+      "3": 6760,
+      "12": 2089,
+      "18": 1521,
+      "24": 1258,
+      "29": 1116
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-094/img1.jpg",
+      "https://demo-images.example.com/products/PROD-094/img2.jpg",
+      "https://demo-images.example.com/products/PROD-094/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-095",
+    "nombre": "Olla RP de 30 QT/38cm con Tapa",
+    "categoria": "Ollas Grandes",
+    "precio_base": 27389,
+    "anticipo": 4108,
+    "saldo_a_financiar": 23281,
+    "mensualidades": {
+      "3": 7761,
+      "12": 2398,
+      "18": 1747,
+      "24": 1444,
+      "29": 1281
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-095/img1.jpg",
+      "https://demo-images.example.com/products/PROD-095/img2.jpg",
+      "https://demo-images.example.com/products/PROD-095/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-096",
+    "nombre": "Parrilla ACR Inxdl 31cm Ollas 20/30 RP",
+    "categoria": "Ollas Grandes",
+    "precio_base": null,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": []
+  },
+  {
+    "id": "PROD-097",
+    "nombre": "Olla Royal Prestige de 60QT c/Tapa",
+    "categoria": "Ollas Grandes",
+    "precio_base": 36289,
+    "anticipo": 5443,
+    "saldo_a_financiar": 30846,
+    "mensualidades": {
+      "3": 10282,
+      "12": 3178,
+      "18": 2314,
+      "24": 1913,
+      "29": 1697
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-097/img1.jpg",
+      "https://demo-images.example.com/products/PROD-097/img2.jpg",
+      "https://demo-images.example.com/products/PROD-097/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-098",
+    "nombre": "Parrilla P/Olla de 60 Cuartos",
+    "categoria": "Ollas Grandes",
+    "precio_base": 4829,
+    "anticipo": 724,
+    "saldo_a_financiar": 4105,
+    "mensualidades": {
+      "3": 1369
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-098/img1.jpg",
+      "https://demo-images.example.com/products/PROD-098/img2.jpg",
+      "https://demo-images.example.com/products/PROD-098/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-099",
+    "nombre": "Jgo. 6pzs Gourmet (Sartenes c/Tapa)",
+    "categoria": "Sartenes Gourmet",
+    "precio_base": 42990,
+    "anticipo": 6449,
+    "saldo_a_financiar": 36541,
+    "mensualidades": {
+      "3": 12181,
+      "12": 3764,
+      "18": 2741,
+      "24": 2266,
+      "29": 2010
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-099/img1.jpg",
+      "https://demo-images.example.com/products/PROD-099/img2.jpg",
+      "https://demo-images.example.com/products/PROD-099/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-100",
+    "nombre": "Sartén Gourmet 8\"/20cm c/Tapa",
+    "categoria": "Sartenes Gourmet",
+    "precio_base": 11490,
+    "anticipo": 1724,
+    "saldo_a_financiar": 9766,
+    "mensualidades": {
+      "3": 3256,
+      "12": 1006
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-100/img1.jpg",
+      "https://demo-images.example.com/products/PROD-100/img2.jpg",
+      "https://demo-images.example.com/products/PROD-100/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-101",
+    "nombre": "Sartén Gourmet RP 10\"/24cm c/Tapa",
+    "categoria": "Sartenes Gourmet",
+    "precio_base": 14849,
+    "anticipo": 2227,
+    "saldo_a_financiar": 12622,
+    "mensualidades": {
+      "3": 4208,
+      "12": 1301,
+      "18": 947
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-101/img1.jpg",
+      "https://demo-images.example.com/products/PROD-101/img2.jpg",
+      "https://demo-images.example.com/products/PROD-101/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-102",
+    "nombre": "Sartén Gourmet RP 12\"/30cm c/Tapa",
+    "categoria": "Sartenes Gourmet",
+    "precio_base": 17990,
+    "anticipo": 2699,
+    "saldo_a_financiar": 15291,
+    "mensualidades": {
+      "3": 5097,
+      "12": 1575,
+      "18": 1147,
+      "24": 949,
+      "29": 842
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-102/img1.jpg",
+      "https://demo-images.example.com/products/PROD-102/img2.jpg",
+      "https://demo-images.example.com/products/PROD-102/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-103",
+    "nombre": "Sartén Gourmet RP 8\"/20cm sin Tapa",
+    "categoria": "Sartenes Gourmet",
+    "precio_base": 8249,
+    "anticipo": 1237,
+    "saldo_a_financiar": 7012,
+    "mensualidades": {
+      "3": 2338
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-103/img1.jpg",
+      "https://demo-images.example.com/products/PROD-103/img2.jpg",
+      "https://demo-images.example.com/products/PROD-103/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-104",
+    "nombre": "Sartén Gourmet RP 10\"/20cm sin Tapa",
+    "categoria": "Sartenes Gourmet",
+    "precio_base": 10439,
+    "anticipo": 1566,
+    "saldo_a_financiar": 8873,
+    "mensualidades": {
+      "3": 2958,
+      "12": 914
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-104/img1.jpg",
+      "https://demo-images.example.com/products/PROD-104/img2.jpg",
+      "https://demo-images.example.com/products/PROD-104/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-105",
+    "nombre": "Sartén Gourmet RP 12\"/30cm sin Tapa",
+    "categoria": "Sartenes Gourmet",
+    "precio_base": 13077,
+    "anticipo": 1962,
+    "saldo_a_financiar": 11115,
+    "mensualidades": {
+      "3": 3705,
+      "12": 1145,
+      "18": 834
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-105/img1.jpg",
+      "https://demo-images.example.com/products/PROD-105/img2.jpg",
+      "https://demo-images.example.com/products/PROD-105/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-106",
+    "nombre": "Utensilios 3pz Easy Release",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 1749,
+    "anticipo": null,
+    "saldo_a_financiar": null,
+    "mensualidades": {},
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-106/img1.jpg",
+      "https://demo-images.example.com/products/PROD-106/img2.jpg",
+      "https://demo-images.example.com/products/PROD-106/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-107",
+    "nombre": "6PC Set DER Efecto Piedra+3PZ Uten",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 43990,
+    "anticipo": 6599,
+    "saldo_a_financiar": 37391,
+    "mensualidades": {
+      "3": 12464,
+      "12": 3852,
+      "18": 2805,
+      "24": 2319,
+      "29": 2057
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-107/img1.jpg",
+      "https://demo-images.example.com/products/PROD-107/img2.jpg",
+      "https://demo-images.example.com/products/PROD-107/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-108",
+    "nombre": "Easy Release 12\"",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 17990,
+    "anticipo": 2699,
+    "saldo_a_financiar": 15291,
+    "mensualidades": {
+      "3": 5097,
+      "12": 1575,
+      "18": 1147,
+      "24": 949,
+      "29": 842
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-108/img1.jpg",
+      "https://demo-images.example.com/products/PROD-108/img2.jpg",
+      "https://demo-images.example.com/products/PROD-108/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-109",
+    "nombre": "Easy Release 10\"",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 14999,
+    "anticipo": 2250,
+    "saldo_a_financiar": 12749,
+    "mensualidades": {
+      "3": 4250,
+      "12": 1314,
+      "18": 957
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-109/img1.jpg",
+      "https://demo-images.example.com/products/PROD-109/img2.jpg",
+      "https://demo-images.example.com/products/PROD-109/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-110",
+    "nombre": "Easy Release 8\"",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 11999,
+    "anticipo": 1800,
+    "saldo_a_financiar": 10199,
+    "mensualidades": {
+      "3": 3400,
+      "12": 1051
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-110/img1.jpg",
+      "https://demo-images.example.com/products/PROD-110/img2.jpg",
+      "https://demo-images.example.com/products/PROD-110/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-111",
+    "nombre": "Olla Easy Release 2QT/20cm",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 14490,
+    "anticipo": 2174,
+    "saldo_a_financiar": 12316,
+    "mensualidades": {
+      "3": 4106,
+      "12": 1269,
+      "18": 924
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-111/img1.jpg",
+      "https://demo-images.example.com/products/PROD-111/img2.jpg",
+      "https://demo-images.example.com/products/PROD-111/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-112",
+    "nombre": "Set Easy Release Ollas & Sarten 6 pzs",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 49489,
+    "anticipo": 7423,
+    "saldo_a_financiar": 42066,
+    "mensualidades": {
+      "3": 14022,
+      "12": 4333,
+      "18": 3155,
+      "24": 2609,
+      "29": 2314
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-112/img1.jpg",
+      "https://demo-images.example.com/products/PROD-112/img2.jpg",
+      "https://demo-images.example.com/products/PROD-112/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-113",
+    "nombre": "Sartén 3.5QT/26cm Easy Release",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 19789,
+    "anticipo": 2968,
+    "saldo_a_financiar": 16821,
+    "mensualidades": {
+      "3": 5607,
+      "12": 1733,
+      "18": 1262,
+      "24": 1043,
+      "29": 926
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-113/img1.jpg",
+      "https://demo-images.example.com/products/PROD-113/img2.jpg",
+      "https://demo-images.example.com/products/PROD-113/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-114",
+    "nombre": "Olla Easy Release 3QT/20cm",
+    "categoria": "Deluxe Easy Release",
+    "precio_base": 16990,
+    "anticipo": 2549,
+    "saldo_a_financiar": 14441,
+    "mensualidades": {
+      "3": 4814,
+      "12": 1488,
+      "18": 1084,
+      "24": 896
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-114/img1.jpg",
+      "https://demo-images.example.com/products/PROD-114/img2.jpg",
+      "https://demo-images.example.com/products/PROD-114/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-115",
+    "nombre": "Sist Especial Novel 8 pzs",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 60379,
+    "anticipo": 9057,
+    "saldo_a_financiar": 51322,
+    "mensualidades": {
+      "3": 17108,
+      "12": 5287,
+      "18": 3850,
+      "24": 3182,
+      "29": 2823
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-115/img1.jpg",
+      "https://demo-images.example.com/products/PROD-115/img2.jpg",
+      "https://demo-images.example.com/products/PROD-115/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-116",
+    "nombre": "Sist Clásico Novel 7 pzs",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 50599,
+    "anticipo": 7590,
+    "saldo_a_financiar": 43009,
+    "mensualidades": {
+      "3": 14337,
+      "12": 4430,
+      "18": 3226,
+      "24": 2667,
+      "29": 2366
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-116/img1.jpg",
+      "https://demo-images.example.com/products/PROD-116/img2.jpg",
+      "https://demo-images.example.com/products/PROD-116/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-117",
+    "nombre": "Novel 5pz SC Complem c/Perfect Pop",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 43439,
+    "anticipo": 6515,
+    "saldo_a_financiar": 36924,
+    "mensualidades": {
+      "3": 12308,
+      "12": 3804,
+      "18": 2770,
+      "24": 2290,
+      "29": 2031
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-117/img1.jpg",
+      "https://demo-images.example.com/products/PROD-117/img2.jpg",
+      "https://demo-images.example.com/products/PROD-117/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-118",
+    "nombre": "Multipan",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 25990,
+    "anticipo": 3899,
+    "saldo_a_financiar": 22091,
+    "mensualidades": {
+      "3": 7364,
+      "12": 2276,
+      "18": 1657,
+      "24": 1370,
+      "29": 1216
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-118/img1.jpg",
+      "https://demo-images.example.com/products/PROD-118/img2.jpg",
+      "https://demo-images.example.com/products/PROD-118/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-119",
+    "nombre": "Olla Novel 1.5QT",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 10989,
+    "anticipo": 1648,
+    "saldo_a_financiar": 9341,
+    "mensualidades": {
+      "3": 3114,
+      "12": 963
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-119/img1.jpg",
+      "https://demo-images.example.com/products/PROD-119/img2.jpg",
+      "https://demo-images.example.com/products/PROD-119/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-120",
+    "nombre": "Olla Novel 2QT",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 13189,
+    "anticipo": 1978,
+    "saldo_a_financiar": 11211,
+    "mensualidades": {
+      "3": 3737,
+      "12": 1155,
+      "18": 841
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-120/img1.jpg",
+      "https://demo-images.example.com/products/PROD-120/img2.jpg",
+      "https://demo-images.example.com/products/PROD-120/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-121",
+    "nombre": "Cacerola Royal Prestige",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 5489,
+    "anticipo": 823,
+    "saldo_a_financiar": 4666,
+    "mensualidades": {
+      "3": 1556
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-121/img1.jpg",
+      "https://demo-images.example.com/products/PROD-121/img2.jpg",
+      "https://demo-images.example.com/products/PROD-121/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-122",
+    "nombre": "Paellera Novel 10\" con Tapa",
+    "categoria": "Piezas Individuales",
+    "precio_base": 12759,
+    "anticipo": 1914,
+    "saldo_a_financiar": 10845,
+    "mensualidades": {
+      "3": 3615,
+      "12": 1118,
+      "18": 814
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-122/img1.jpg",
+      "https://demo-images.example.com/products/PROD-122/img2.jpg",
+      "https://demo-images.example.com/products/PROD-122/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-123",
+    "nombre": "Paellera Novel 14\" con Tapa",
+    "categoria": "Piezas Individuales",
+    "precio_base": 25299,
+    "anticipo": 3795,
+    "saldo_a_financiar": 21504,
+    "mensualidades": {
+      "3": 7168,
+      "12": 2215,
+      "18": 1613,
+      "24": 1334,
+      "29": 1183
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-123/img1.jpg",
+      "https://demo-images.example.com/products/PROD-123/img2.jpg",
+      "https://demo-images.example.com/products/PROD-123/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-124",
+    "nombre": "Tapa Alta Nov 26cm",
+    "categoria": "Piezas Individuales",
+    "precio_base": 7919,
+    "anticipo": 1188,
+    "saldo_a_financiar": 6731,
+    "mensualidades": {
+      "3": 2244
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-124/img1.jpg",
+      "https://demo-images.example.com/products/PROD-124/img2.jpg",
+      "https://demo-images.example.com/products/PROD-124/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-125",
+    "nombre": "Tapa Pequeña Novel de 16cm",
+    "categoria": "Piezas Individuales",
+    "precio_base": 3849,
+    "anticipo": 577,
+    "saldo_a_financiar": 3272,
+    "mensualidades": {
+      "3": 1091
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-125/img1.jpg",
+      "https://demo-images.example.com/products/PROD-125/img2.jpg",
+      "https://demo-images.example.com/products/PROD-125/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-126",
+    "nombre": "Tapa Mediana Novel de 20cm",
+    "categoria": "Piezas Individuales",
+    "precio_base": 4289,
+    "anticipo": 643,
+    "saldo_a_financiar": 3646,
+    "mensualidades": {
+      "3": 1216
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-126/img1.jpg",
+      "https://demo-images.example.com/products/PROD-126/img2.jpg",
+      "https://demo-images.example.com/products/PROD-126/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-127",
+    "nombre": "Tapa Grande Novel de 26cm",
+    "categoria": "Piezas Individuales",
+    "precio_base": 4444,
+    "anticipo": 667,
+    "saldo_a_financiar": 3777,
+    "mensualidades": {
+      "3": 1259
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-127/img1.jpg",
+      "https://demo-images.example.com/products/PROD-127/img2.jpg",
+      "https://demo-images.example.com/products/PROD-127/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-128",
+    "nombre": "Colador Pequeño (20cm) RP",
+    "categoria": "Piezas Individuales",
+    "precio_base": 4399,
+    "anticipo": 660,
+    "saldo_a_financiar": 3739,
+    "mensualidades": {
+      "3": 1247
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-128/img1.jpg",
+      "https://demo-images.example.com/products/PROD-128/img2.jpg",
+      "https://demo-images.example.com/products/PROD-128/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-129",
+    "nombre": "Perfect Pop",
+    "categoria": "Piezas Individuales",
+    "precio_base": 4389,
+    "anticipo": 658,
+    "saldo_a_financiar": 3731,
+    "mensualidades": {
+      "3": 1244
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-129/img1.jpg",
+      "https://demo-images.example.com/products/PROD-129/img2.jpg",
+      "https://demo-images.example.com/products/PROD-129/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-130",
+    "nombre": "Olla Novel 3QT/20cm sin Tapa",
+    "categoria": "Piezas Individuales",
+    "precio_base": 14289,
+    "anticipo": 2143,
+    "saldo_a_financiar": 12146,
+    "mensualidades": {
+      "3": 4049,
+      "12": 1252,
+      "18": 911
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-130/img1.jpg",
+      "https://demo-images.example.com/products/PROD-130/img2.jpg",
+      "https://demo-images.example.com/products/PROD-130/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-131",
+    "nombre": "Olla Novel 4QT/20cm con Tapa",
+    "categoria": "Piezas Individuales",
+    "precio_base": 16499,
+    "anticipo": 2475,
+    "saldo_a_financiar": 14024,
+    "mensualidades": {
+      "3": 4675,
+      "12": 1445,
+      "18": 1052,
+      "24": 870
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-131/img1.jpg",
+      "https://demo-images.example.com/products/PROD-131/img2.jpg",
+      "https://demo-images.example.com/products/PROD-131/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-132",
+    "nombre": "Olla Novel 6QT/26cm sin Tapa",
+    "categoria": "Piezas Individuales",
+    "precio_base": 19239,
+    "anticipo": 2886,
+    "saldo_a_financiar": 16353,
+    "mensualidades": {
+      "3": 5451,
+      "12": 1685,
+      "18": 1227,
+      "24": 1014,
+      "29": 900
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-132/img1.jpg",
+      "https://demo-images.example.com/products/PROD-132/img2.jpg",
+      "https://demo-images.example.com/products/PROD-132/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-133",
+    "nombre": "Olla Novel 8QT/26cm con Tapa",
+    "categoria": "Piezas Individuales",
+    "precio_base": 20339,
+    "anticipo": 3051,
+    "saldo_a_financiar": 17288,
+    "mensualidades": {
+      "3": 5763,
+      "12": 1781,
+      "18": 1297,
+      "24": 1072,
+      "29": 951
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-133/img1.jpg",
+      "https://demo-images.example.com/products/PROD-133/img2.jpg",
+      "https://demo-images.example.com/products/PROD-133/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-134",
+    "nombre": "Sartén Novel 8\" c/Tapa",
+    "categoria": "Piezas Individuales",
+    "precio_base": 13994,
+    "anticipo": 2099,
+    "saldo_a_financiar": 11895,
+    "mensualidades": {
+      "3": 3965,
+      "12": 1226,
+      "18": 893
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-134/img1.jpg",
+      "https://demo-images.example.com/products/PROD-134/img2.jpg",
+      "https://demo-images.example.com/products/PROD-134/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-135",
+    "nombre": "Sartén Novel 10.5\" c/Tapa",
+    "categoria": "Piezas Individuales",
+    "precio_base": 18579,
+    "anticipo": 2787,
+    "saldo_a_financiar": 15792,
+    "mensualidades": {
+      "3": 5264,
+      "12": 1627,
+      "18": 1185,
+      "24": 980,
+      "29": 869
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-135/img1.jpg",
+      "https://demo-images.example.com/products/PROD-135/img2.jpg",
+      "https://demo-images.example.com/products/PROD-135/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-136",
+    "nombre": "Sistema de Salud 18 pzs",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 109989,
+    "anticipo": 16498,
+    "saldo_a_financiar": 93491,
+    "mensualidades": {
+      "3": 31164,
+      "12": 9630,
+      "18": 7012,
+      "24": 5797,
+      "29": 5143
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-136/img1.jpg",
+      "https://demo-images.example.com/products/PROD-136/img2.jpg",
+      "https://demo-images.example.com/products/PROD-136/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-137",
+    "nombre": "15 pzs Sist Profesional",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 97889,
+    "anticipo": 14683,
+    "saldo_a_financiar": 83206,
+    "mensualidades": {
+      "3": 27736,
+      "12": 8571,
+      "18": 6241,
+      "24": 5159,
+      "29": 4577
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-137/img1.jpg",
+      "https://demo-images.example.com/products/PROD-137/img2.jpg",
+      "https://demo-images.example.com/products/PROD-137/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-138",
+    "nombre": "Sist de Cocina 13 pzs",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 80299,
+    "anticipo": 12045,
+    "saldo_a_financiar": 68254,
+    "mensualidades": {
+      "3": 22752,
+      "12": 7031,
+      "18": 5120,
+      "24": 4232,
+      "29": 3754
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-138/img1.jpg",
+      "https://demo-images.example.com/products/PROD-138/img2.jpg",
+      "https://demo-images.example.com/products/PROD-138/img3.jpg"
+    ]
+  },
+  {
+    "id": "PROD-139",
+    "nombre": "Sist Familiar Novel 10 pzs",
+    "categoria": "Sistemas de Cocina",
+    "precio_base": 70399,
+    "anticipo": 10560,
+    "saldo_a_financiar": 59839,
+    "mensualidades": {
+      "3": 19947,
+      "12": 6164,
+      "18": 4488,
+      "24": 3711,
+      "29": 3292
+    },
+    "galeria_imagenes": [
+      "https://demo-images.example.com/products/PROD-139/img1.jpg",
+      "https://demo-images.example.com/products/PROD-139/img2.jpg",
+      "https://demo-images.example.com/products/PROD-139/img3.jpg"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+<section class="catalog">
+  <div class="catalog__container">
+    <div class="catalog__filters">
+      @for (category of categories(); track category) {
+        <button
+          type="button"
+          class="catalog__filter-btn"
+          [class.catalog__filter-btn--active]="selectedCategory === category"
+          (click)="selectCategory(category)">
+          {{ category }}
+        </button>
+      }
+    </div>
+
+    @if (isLoading) {
+      <p class="catalog__status">Cargando productos...</p>
+    } @else if (errorMessage) {
+      <p class="catalog__status catalog__status--error">{{ errorMessage }}</p>
+    } @else if (filteredProducts().length === 0) {
+      <p class="catalog__status">No hay productos en esta categoría.</p>
+    } @else {
+      <div class="catalog__grid">
+        @for (product of filteredProducts(); track product.id) {
+          <app-product-card [product]="product" />
+        }
+      </div>
+    }
+  </div>
+</section>

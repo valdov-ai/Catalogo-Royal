@@ -1,0 +1,63 @@
+<section class="admin">
+  <div class="admin__container">
+    <div class="admin__header">
+      <div>
+        <h2 class="admin__title">Administración de Productos</h2>
+        <p class="admin__subtitle">{{ products().length }} productos registrados</p>
+      </div>
+      <a routerLink="/admin/nuevo" class="admin__add-btn">+ Nuevo Producto</a>
+    </div>
+
+    @if (isLoading) {
+      <p class="admin__status">Cargando productos...</p>
+    } @else if (products().length === 0) {
+      <p class="admin__status">No hay productos registrados todavía.</p>
+    } @else {
+      <div class="admin__table-wrapper">
+        <table class="admin__table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Categoría</th>
+              <th>Precio base</th>
+              <th>Financiamiento</th>
+              <th>Mensualidades</th>
+              <th>Imágenes</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (product of products(); track product.id) {
+              <tr>
+                <td>{{ product.id }}</td>
+                <td>{{ product.nombre || '—' }}</td>
+                <td>{{ product.categoria || '—' }}</td>
+                <td>
+                  @if (hasPrice(product.precio_base)) {
+                    {{ product.precio_base | currency:'MXN':'symbol':'1.0-0' }}
+                  } @else {
+                    <span class="admin__na">N/D</span>
+                  }
+                </td>
+                <td>
+                  @if (hasFinancing(product.anticipo, product.saldo_a_financiar)) {
+                    <span class="admin__badge admin__badge--yes">Sí</span>
+                  } @else {
+                    <span class="admin__badge admin__badge--no">No</span>
+                  }
+                </td>
+                <td>{{ mensualidadesCount(product.mensualidades) }} plazo(s)</td>
+                <td>{{ imageCount(product.galeria_imagenes) }} imagen(es)</td>
+                <td class="admin__actions">
+                  <a [routerLink]="['/admin/editar', product.id]" class="admin__action-btn admin__action-btn--edit">Editar</a>
+                  <button type="button" class="admin__action-btn admin__action-btn--delete" (click)="confirmDelete(product.id, product.nombre)">Eliminar</button>
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    }
+  </div>
+</section>

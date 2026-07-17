@@ -1,0 +1,146 @@
+.product-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  &__image-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background-color: #F5F5F5;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__badge {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #8A9A86;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+  }
+
+  &__gallery-count {
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.2rem 0.55rem;
+    border-radius: 12px;
+  }
+
+  &__body {
+    padding: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    flex: 1;
+  }
+
+  &__title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #333333;
+    margin: 0;
+  }
+
+  &__pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  &__price {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #333333;
+
+    &--na {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #999999;
+      font-style: italic;
+    }
+  }
+
+  &__financing {
+    font-size: 0.8rem;
+    color: #666666;
+    margin: 0;
+
+    &--na {
+      color: #999999;
+      font-style: italic;
+    }
+  }
+
+  &__mensualidades {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+
+    &-item {
+      font-size: 0.78rem;
+      color: #333333;
+      background-color: #F5F5F5;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+    }
+
+    &--na {
+      font-size: 0.78rem;
+      color: #999999;
+      font-style: italic;
+      margin: 0;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+  }
+
+  &__btn {
+    background-color: #D1A18C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #B8876F;
+    }
+  }
+}

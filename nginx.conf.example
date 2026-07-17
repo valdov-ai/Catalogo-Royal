@@ -1,0 +1,18 @@
+server {
+    listen 80;
+    server_name tu-dominio.com;
+    root /var/www/catalogo-utensilios;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location ~* \.(?:css|js|jpg|jpeg|png|gif|ico|svg|woff2?)$ {
+        expires 30d;
+        access_log off;
+    }
+
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+}
