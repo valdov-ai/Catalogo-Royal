@@ -1,0 +1,77 @@
+<section class="prospeccion">
+  <div class="prospeccion__container">
+    <div class="prospeccion__header">
+      <h2 class="prospeccion__title">Formulario de Prospección</h2>
+      <a routerLink="/" class="prospeccion__back-link">&larr; Volver al catálogo</a>
+    </div>
+
+    @if (formError()) {
+      <p class="prospeccion__alert prospeccion__alert--error">{{ formError() }}</p>
+    }
+    @if (formSuccess()) {
+      <p class="prospeccion__alert prospeccion__alert--success">{{ formSuccess() }}</p>
+    }
+
+    <form (ngSubmit)="onSubmit()" class="prospeccion__form">
+      <div class="prospeccion__field">
+        <label for="nombre">Nombre *</label>
+        <input id="nombre" type="text" [(ngModel)]="nombre" name="nombre" required placeholder="Nombre completo" />
+      </div>
+
+      <div class="prospeccion__field">
+        <label for="telefono">Teléfono *</label>
+        <input id="telefono" type="tel" [(ngModel)]="telefono" name="telefono" required placeholder="10 dígitos" />
+      </div>
+
+      <div class="prospeccion__field">
+        <label>Pregunta uno *</label>
+        <div class="prospeccion__radio-group">
+          <label class="prospeccion__radio-option">
+            <input type="radio" name="preguntaUno" value="SI" [(ngModel)]="preguntaUno" />
+            SI
+          </label>
+          <label class="prospeccion__radio-option">
+            <input type="radio" name="preguntaUno" value="NO" [(ngModel)]="preguntaUno" />
+            NO
+          </label>
+        </div>
+      </div>
+
+      <div class="prospeccion__field">
+        <label for="preguntaDos">Pregunta dos *</label>
+        <select id="preguntaDos" [(ngModel)]="preguntaDos" name="preguntaDos" required>
+          <option value="" disabled>Selecciona una opción</option>
+          @for (opcion of opcionesDos; track opcion) {
+            <option [value]="opcion">{{ opcion }}</option>
+          }
+        </select>
+      </div>
+
+      <div class="prospeccion__field">
+        <label>Pregunta check list</label>
+        <div class="prospeccion__checkbox-group">
+          @for (opcion of checklistOptions(); track opcion.value) {
+            <label class="prospeccion__checkbox-option">
+              <input
+                type="checkbox"
+                [checked]="opcion.checked"
+                (change)="toggleChecklistOption(opcion.value)" />
+              {{ opcion.label }}
+            </label>
+          }
+        </div>
+      </div>
+
+      <div class="prospeccion__field">
+        <label for="preguntaCuatro">Pregunta cuatro</label>
+        <textarea id="preguntaCuatro" [(ngModel)]="preguntaCuatro" name="preguntaCuatro" rows="4" placeholder="Escribe tu respuesta..."></textarea>
+      </div>
+
+      <div class="prospeccion__actions">
+        <button type="submit" class="prospeccion__btn" [disabled]="isSubmitting()">
+          {{ isSubmitting() ? 'Guardando...' : 'Guardar Prospección' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</section>

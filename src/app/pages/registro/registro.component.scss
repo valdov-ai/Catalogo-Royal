@@ -1,0 +1,140 @@
+.registro {
+  padding: 2rem 0 3rem;
+  background-color: #F9F9F9;
+  min-height: calc(100vh - 140px);
+
+  &__container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    color: #333333;
+    margin: 0;
+  }
+
+  &__back-link {
+    color: #8A9A86;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__alert {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+
+    &--error {
+      background-color: #FBE9E7;
+      color: #B00020;
+    }
+
+    &--success {
+      background-color: #E8F0E6;
+      color: #4C6B45;
+    }
+  }
+
+  &__form {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #333333;
+    }
+
+    input, textarea, select {
+      border: 1px solid #E0E0E0;
+      border-radius: 8px;
+      padding: 0.6rem 0.8rem;
+      font-size: 0.9rem;
+      color: #333333;
+      font-family: inherit;
+      resize: vertical;
+
+      &:focus {
+        outline: none;
+        border-color: #8A9A86;
+      }
+    }
+  }
+
+  &__radio-group, &__checkbox-group {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  &__radio-option, &__checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    color: #333333;
+    cursor: pointer;
+
+    input[type="radio"], input[type="checkbox"] {
+      width: auto;
+      accent-color: #8A9A86;
+      cursor: pointer;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+    border-top: 1px solid #E0E0E0;
+  }
+
+  &__btn {
+    background-color: #D1A18C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 0.65rem 1.6rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover:not(:disabled) {
+      background-color: #B8876F;
+    }
+
+    &:disabled {
+      background-color: #E0E0E0;
+      cursor: not-allowed;
+    }
+  }
+}

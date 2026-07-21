@@ -1,23 +1,43 @@
 <section class="catalog">
   <div class="catalog__container">
-    <div class="catalog__filters">
-      @for (category of categories(); track category) {
-        <button
-          type="button"
-          class="catalog__filter-btn"
-          [class.catalog__filter-btn--active]="selectedCategory === category"
-          (click)="selectCategory(category)">
-          {{ category }}
-        </button>
-      }
+    <div class="catalog__toolbar">
+      <div class="catalog__search-wrapper">
+        <input
+          type="text"
+          class="catalog__search-input"
+          placeholder="Buscar por nombre, categoría o ID..."
+          [(ngModel)]="searchTerm"
+          name="searchTerm" />
+        @if (searchTerm) {
+          <button type="button" class="catalog__search-clear" (click)="clearSearch()" aria-label="Limpiar búsqueda">✕</button>
+        }
+      </div>
+
+      <button type="button" class="catalog__toggle-filters-btn" (click)="toggleFilters()">
+        {{ filtersVisible() ? 'Ocultar filtros' : 'Mostrar filtros' }}
+      </button>
     </div>
+
+    @if (filtersVisible()) {
+      <div class="catalog__filters">
+        @for (category of categories(); track category) {
+          <button
+            type="button"
+            class="catalog__filter-btn"
+            [class.catalog__filter-btn--active]="selectedCategory === category"
+            (click)="selectCategory(category)">
+            {{ category }}
+          </button>
+        }
+      </div>
+    }
 
     @if (isLoading) {
       <p class="catalog__status">Cargando productos...</p>
     } @else if (errorMessage) {
       <p class="catalog__status catalog__status--error">{{ errorMessage }}</p>
     } @else if (filteredProducts().length === 0) {
-      <p class="catalog__status">No hay productos en esta categoría.</p>
+      <p class="catalog__status">No hay productos que coincidan con tu búsqueda.</p>
     } @else {
       <div class="catalog__grid">
         @for (product of filteredProducts(); track product.id) {

@@ -1,0 +1,48 @@
+<section class="registro">
+  <div class="registro__container">
+    <div class="registro__header">
+      <h2 class="registro__title">Registro de Cliente</h2>
+      <a routerLink="/" class="registro__back-link">&larr; Volver al catálogo</a>
+    </div>
+
+    @if (formError()) {
+      <p class="registro__alert registro__alert--error">{{ formError() }}</p>
+    }
+    @if (formSuccess()) {
+      <p class="registro__alert registro__alert--success">{{ formSuccess() }}</p>
+    }
+
+    <form (ngSubmit)="onSubmit()" class="registro__form">
+      <div class="registro__field">
+        <label for="nombre">Nombre *</label>
+        <input id="nombre" type="text" [(ngModel)]="nombre" name="nombre" required placeholder="Nombre completo" />
+      </div>
+
+      <div class="registro__field">
+        <label for="telefono">Teléfono *</label>
+        <input id="telefono" type="tel" [(ngModel)]="telefono" name="telefono" required placeholder="10 dígitos" />
+      </div>
+
+      <div class="registro__field">
+        <label for="direccion">Dirección</label>
+        <input id="direccion" type="text" [(ngModel)]="direccion" name="direccion" placeholder="Calle, número, colonia" />
+      </div>
+
+      <div class="registro__field">
+        <label for="referido">Referido</label>
+        <input id="referido" type="text" [(ngModel)]="referido" name="referido" placeholder="¿Quién te recomendó?" />
+      </div>
+
+      <div class="registro__field">
+        <label for="observaciones">Observaciones</label>
+        <textarea id="observaciones" [(ngModel)]="observaciones" name="observaciones" rows="4" placeholder="Notas adicionales..."></textarea>
+      </div>
+
+      <div class="registro__actions">
+        <button type="submit" class="registro__btn" [disabled]="isSubmitting()">
+          {{ isSubmitting() ? 'Guardando...' : 'Guardar Registro' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
