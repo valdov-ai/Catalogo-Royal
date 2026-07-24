@@ -1,48 +1,171 @@
-<section class="registro">
-  <div class="registro__container">
-    <div class="registro__header">
-      <h2 class="registro__title">Registro de Cliente</h2>
-      <a routerLink="/" class="registro__back-link">&larr; Volver al catálogo</a>
+<section class="registro-page">
+  <div class="registro-page__container">
+    <div class="registro-page__header">
+      <div>
+        <h2 class="registro-page__title">Registro 4 en 14</h2>
+        <p class="registro-page__subtitle">Condiciones:</p>
+        <p class="registro-lista__header">1: Las personas referidas deben teer linea telefónica de casa. 
+          <br> 2: Al menos un miembro de la familia debe tener ingresos comprobables.
+          <br> 3: Si se trata de una pareja, ambas deben estar presentes durante la presentación
+          <br> 4: Para recibir el regalo, deben lograse 4 citas en 14 dias a partir de hoy.
+          <br> 5: Cuando se logren 4 citas, seras notificado para acordar la entrega de tu regalo.
+          <br> 6: Cualquier reclamación perderá validez 90 días despues de hoy.</p>
+      </div>
+      <a routerLink="/" class="registro-page__back-link">&larr; Volver al catálogo</a>
     </div>
 
-    @if (formError()) {
-      <p class="registro__alert registro__alert--error">{{ formError() }}</p>
-    }
-    @if (formSuccess()) {
-      <p class="registro__alert registro__alert--success">{{ formSuccess() }}</p>
+    @if (globalAlert()) {
+      <p class="registro-page__alert registro-page__alert--warning">{{ globalAlert() }}</p>
     }
 
-    <form (ngSubmit)="onSubmit()" class="registro__form">
-      <div class="registro__field">
-        <label for="nombre">Nombre *</label>
-        <input id="nombre" type="text" [(ngModel)]="nombre" name="nombre" required placeholder="Nombre completo" />
+    <div class="registro-page__grid">
+      <section class="registro-card">
+        <div class="registro-card__heading">
+          <h3>Datos de cliente</h3>
+          @if (clientePersistido()) {
+            <span class="registro-card__status registro-card__status--success">Cliente guardado</span>
+          } @else {
+            <span class="registro-card__status">Pendiente</span>
+          }
+        </div>
+
+        @if (clienteError()) {
+          <p class="registro-page__alert registro-page__alert--error">{{ clienteError() }}</p>
+        }
+        @if (clienteSuccess()) {
+          <p class="registro-page__alert registro-page__alert--success">{{ clienteSuccess() }}</p>
+        }
+
+        <div class="registro-form__grid registro-form__grid--two">
+          <div class="registro-form__field registro-form__field--full">
+            <label for="clienteNombre">Nombre *</label>
+            <input id="clienteNombre" type="text" [ngModel]="cliente().nombre" (ngModelChange)="updateClienteField('nombre', $event)" name="clienteNombre" />
+          </div>
+
+          <div class="registro-form__field registro-form__field--full">
+            <label for="clienteDireccion">Dirección</label>
+            <input id="clienteDireccion" type="text" [ngModel]="cliente().direccion" (ngModelChange)="updateClienteField('direccion', $event)" name="clienteDireccion" />
+          </div>
+
+          <div class="registro-form__field">
+            <label for="clienteCiudad">Ciudad</label>
+            <input id="clienteCiudad" type="text" [ngModel]="cliente().ciudad" (ngModelChange)="updateClienteField('ciudad', $event)" name="clienteCiudad" />
+          </div>
+
+          <div class="registro-form__field">
+            <label for="clienteCp">C.P.</label>
+            <input id="clienteCp" type="text" [ngModel]="cliente().cp" (ngModelChange)="updateClienteField('cp', $event)" name="clienteCp" />
+          </div>
+
+          <div class="registro-form__field">
+            <label for="clienteTelefonoCasa">Teléfono casa</label>
+            <input id="clienteTelefonoCasa" type="text" maxlength="10" [ngModel]="cliente().telefonoCasa" (ngModelChange)="updateClienteField('telefonoCasa', $event)" name="clienteTelefonoCasa" />
+          </div>
+
+          <div class="registro-form__field">
+            <label for="clienteTelefonoCel">Tel. cel</label>
+            <input id="clienteTelefonoCel" type="text" maxlength="10" [ngModel]="cliente().telefonoCel" (ngModelChange)="updateClienteField('telefonoCel', $event)" name="clienteTelefonoCel" />
+          </div>
+
+          <div class="registro-form__field">
+            <label for="clientePresentaciones">Regalo *</label>
+            <input id="clientePresentaciones" type="text" [ngModel]="cliente().presentaciones" (ngModelChange)="updateClienteField('presentaciones', $event)" name="clientePresentaciones" />
+          </div>
+
+          <div class="registro-form__field">
+            <label for="clienteIdRP">Id RP *</label>
+            <input id="clienteIdRP" type="text" [ngModel]="cliente().idRP" (ngModelChange)="updateClienteField('idRP', $event)" name="clienteIdRP" />
+          </div>
+        </div>
+
+        <div class="registro-card__actions">
+          <button type="button" class="btn btn--secondary" style="display:none" (click)="guardarCliente()" [disabled]="isSavingCliente()">{{ isSavingCliente() ? 'Guardando...' : 'Guardar' }}</button>
+        </div>
+      </section>
+
+      <section class="registro-card">
+        <div class="registro-card__heading">
+          <h3>Datos de referido</h3>
+          <span class="registro-card__status">{{ referidosCount() }} registrado(s)</span>
+        </div>
+
+        @if (referidoError()) {
+          <p class="registro-page__alert registro-page__alert--error">{{ referidoError() }}</p>
+        }
+        @if (referidoSuccess()) {
+          <p class="registro-page__alert registro-page__alert--success">{{ referidoSuccess() }}</p>
+        }
+
+        <div class="registro-form__grid">
+          <div class="registro-form__field">
+            <label for="referidoNombre">Nombre *</label>
+            <input id="referidoNombre" type="text" [ngModel]="referido().nombre" (ngModelChange)="updateReferidoField('nombre', $event)" name="referidoNombre" />
+          </div>
+
+          <div class="registro-form__field">
+            <label for="referidoTelefono">Teléfono *</label>
+            <input id="referidoTelefono" type="text" maxlength="10" [ngModel]="referido().telefono" (ngModelChange)="updateReferidoField('telefono', $event)" name="referidoTelefono" />
+          </div>
+
+          <div class="registro-form__field registro-form__field--full">
+            <label for="referidoDireccion">Dirección *</label>
+            <input id="referidoDireccion" type="text" [ngModel]="referido().direccion" (ngModelChange)="updateReferidoField('direccion', $event)" name="referidoDireccion" />
+          </div>
+
+          <div class="registro-form__field registro-form__field--full">
+            <label for="referidoObservaciones">Observaciones</label>
+            <textarea id="referidoObservaciones" rows="4" [ngModel]="referido().observaciones" (ngModelChange)="updateReferidoField('observaciones', $event)" name="referidoObservaciones"></textarea>
+          </div>
+        </div>
+
+        <div class="registro-card__actions">
+          <button type="button" class="btn btn--primary" (click)="agregarReferido()" [disabled]="isSavingReferido()">{{ isSavingReferido() ? 'Agregando...' : 'Agregar' }}</button>
+        </div>
+      </section>
+    </div>
+
+    <section class="registro-lista">
+      <div class="registro-lista__header">
+        <div>
+          <h3>Referidos vinculados</h3>
+          <p>Se guardan de inmediato y permanecen ligados al cliente actual.</p>
+        </div>
       </div>
 
-      <div class="registro__field">
-        <label for="telefono">Teléfono *</label>
-        <input id="telefono" type="tel" [(ngModel)]="telefono" name="telefono" required placeholder="10 dígitos" />
-      </div>
+      @if (referidosVinculados().length === 0) {
+        <p class="registro-lista__empty">Todavía no hay referidos agregados para este cliente.</p>
+      } @else {
+        <div class="registro-lista__table-wrapper">
+          <table class="registro-lista__table">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Dirección</th>
+                <th>Observaciones</th>
+                <th>Acción</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (item of referidosVinculados(); track item.id) {
+                <tr>
+                  <td>{{ item.nombre }}</td>
+                  <td>{{ item.telefono }}</td>
+                  <td>{{ item.direccion }}</td>
+                  <td>{{ item.observaciones || '—' }}</td>
+                  <td>
+                    <button type="button" class="btn-link-danger" (click)="eliminarReferidoLocal(item.id)">Quitar</button>
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      }
+    </section>
 
-      <div class="registro__field">
-        <label for="direccion">Dirección</label>
-        <input id="direccion" type="text" [(ngModel)]="direccion" name="direccion" placeholder="Calle, número, colonia" />
-      </div>
-
-      <div class="registro__field">
-        <label for="referido">Referido</label>
-        <input id="referido" type="text" [(ngModel)]="referido" name="referido" placeholder="¿Quién te recomendó?" />
-      </div>
-
-      <div class="registro__field">
-        <label for="observaciones">Observaciones</label>
-        <textarea id="observaciones" [(ngModel)]="observaciones" name="observaciones" rows="4" placeholder="Notas adicionales..."></textarea>
-      </div>
-
-      <div class="registro__actions">
-        <button type="submit" class="registro__btn" [disabled]="isSubmitting()">
-          {{ isSubmitting() ? 'Guardando...' : 'Guardar Registro' }}
-        </button>
-      </div>
-    </form>
+    <div class="registro-page__footer-actions">
+      <button type="button" class="btn btn--ghost" (click)="nuevoRegistro()">Nuevo</button>
+    </div>
   </div>
 </section>

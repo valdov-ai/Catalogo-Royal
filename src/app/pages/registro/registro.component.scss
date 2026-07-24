@@ -1,10 +1,10 @@
-.registro {
+.registro-page {
   padding: 2rem 0 3rem;
-  background-color: #F9F9F9;
+  background: #f7f6f2;
   min-height: calc(100vh - 140px);
 
   &__container {
-    max-width: 700px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem;
   }
@@ -12,129 +12,225 @@
   &__header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.5rem;
+    align-items: flex-start;
+    gap: 1rem;
     flex-wrap: wrap;
-    gap: 0.75rem;
+    margin-bottom: 1.5rem;
   }
 
   &__title {
-    font-size: 1.5rem;
-    color: #333333;
+    margin: 0 0 0.35rem;
+    color: #28251d;
+    font-size: 1.8rem;
+  }
+
+  &__subtitle {
     margin: 0;
+    color: #6f6b63;
+    max-width: 60ch;
   }
 
   &__back-link {
-    color: #8A9A86;
+    color: #01696f;
     text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
+  }
 
-    &:hover {
-      text-decoration: underline;
-    }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
   &__alert {
-    padding: 0.75rem 1rem;
-    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
     margin-bottom: 1rem;
-    font-size: 0.9rem;
+    font-size: 0.92rem;
+    border: 1px solid transparent;
 
-    &--error {
-      background-color: #FBE9E7;
-      color: #B00020;
-    }
-
-    &--success {
-      background-color: #E8F0E6;
-      color: #4C6B45;
-    }
+    &--error { background: #fbe9e7; color: #b00020; border-color: #f3c6cf; }
+    &--success { background: #e8f0e6; color: #35622d; border-color: #cfe0cb; }
+    &--warning { background: #fff2da; color: #8a5b00; border-color: #eed8a5; }
   }
 
-  &__form {
-    background-color: #FFFFFF;
-    border: 1px solid #E0E0E0;
-    border-radius: 12px;
-    padding: 1.75rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-  }
-
-  &__field {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-
-    label {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: #333333;
-    }
-
-    input, textarea, select {
-      border: 1px solid #E0E0E0;
-      border-radius: 8px;
-      padding: 0.6rem 0.8rem;
-      font-size: 0.9rem;
-      color: #333333;
-      font-family: inherit;
-      resize: vertical;
-
-      &:focus {
-        outline: none;
-        border-color: #8A9A86;
-      }
-    }
-  }
-
-  &__radio-group, &__checkbox-group {
-    display: flex;
-    gap: 1.25rem;
-    flex-wrap: wrap;
-  }
-
-  &__radio-option, &__checkbox-option {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 0.9rem;
-    color: #333333;
-    cursor: pointer;
-
-    input[type="radio"], input[type="checkbox"] {
-      width: auto;
-      accent-color: #8A9A86;
-      cursor: pointer;
-    }
-  }
-
-  &__actions {
+  &__footer-actions {
     display: flex;
     justify-content: flex-end;
-    padding-top: 0.5rem;
-    border-top: 1px solid #E0E0E0;
+    margin-top: 1.25rem;
+  }
+}
+
+.registro-card,
+.registro-lista {
+  background: #ffffff;
+  border: 1px solid #e1ddd6;
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.04);
+}
+
+.registro-card__heading,
+.registro-lista__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.registro-card__heading h3,
+.registro-lista__header h3 {
+  margin: 0;
+  color: #28251d;
+}
+
+.registro-lista__header p {
+  margin: 0.35rem 0 0;
+  color: #7a7974;
+  font-size: 0.9rem;
+}
+
+.registro-card__status {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: #f1efeb;
+  color: #6f6b63;
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  &--success {
+    background: #dff0dc;
+    color: #35622d;
+  }
+}
+
+.registro-card__actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.registro-form__grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 0.95rem;
+
+  &--two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.registro-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  label {
+    font-size: 0.86rem;
+    font-weight: 700;
+    color: #28251d;
   }
 
-  &__btn {
-    background-color: #D1A18C;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    padding: 0.65rem 1.6rem;
+  input, textarea {
+    width: 100%;
+    border: 1px solid #d8d4cc;
+    border-radius: 10px;
+    padding: 0.7rem 0.85rem;
+    font-size: 0.92rem;
+    font-family: inherit;
+    color: #28251d;
+    background: #fbfbf9;
+
+    &:focus {
+      outline: none;
+      border-color: #01696f;
+      box-shadow: 0 0 0 3px rgba(1, 105, 111, 0.10);
+    }
+  }
+
+  &--full {
+    grid-column: 1 / -1;
+  }
+}
+
+.registro-lista__empty {
+  margin: 0;
+  color: #7a7974;
+  font-style: italic;
+}
+
+.registro-lista__table-wrapper {
+  overflow-x: auto;
+}
+
+.registro-lista__table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+
+  th, td {
+    padding: 0.8rem 0.7rem;
+    border-bottom: 1px solid #ece8e2;
+    text-align: left;
     font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
+    vertical-align: top;
+  }
 
-    &:hover:not(:disabled) {
-      background-color: #B8876F;
-    }
+  th {
+    background: #f7f6f2;
+    color: #28251d;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
 
-    &:disabled {
-      background-color: #E0E0E0;
-      cursor: not-allowed;
-    }
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 0.72rem 1.2rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  &--primary {
+    background: #01696f;
+    color: #fff;
+  }
+
+  &--secondary {
+    background: #d19900;
+    color: #28251d;
+  }
+
+  &--ghost {
+    background: #28251d;
+    color: #fff;
+  }
+}
+
+.btn-link-danger {
+  color: #a13544;
+  background: transparent;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .registro-page__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .registro-form__grid--two {
+    grid-template-columns: 1fr;
   }
 }
