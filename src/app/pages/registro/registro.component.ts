@@ -1,7 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component, signal, computed, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { RegistroSupabaseService } from '../../services/registro-supabase.service';
+
+
 
 interface ClienteForm {
   nombre: string;
@@ -36,16 +39,26 @@ interface ReferidoGuardado extends ReferidoForm {
 @Component({
   selector: 'app-registro',
   standalone: true,
-  imports: [FormsModule, RouterLink],
+  imports: [CommonModule, FormsModule, RouterLink],
   templateUrl: './registro.component.html',
   styleUrls: ['./registro.component.scss']
 })
+
 export class RegistroComponent {
   private readonly storageClienteDraft = 'registro_cliente_draft';
   private readonly storageReferidosDraft = 'registro_referidos_draft';
   private readonly storageClientePersistidoDraft = 'registro_cliente_persistido_draft';
   private readonly supabase = inject(RegistroSupabaseService);
 
+  vista = signal<'registro' | 'reporte'>('registro');
+  
+  abrirReporte(): void {
+    this.vista.set('reporte');
+  }
+
+  cerrarReporte(): void {
+    this.vista.set('registro');
+  }
   cliente = signal<ClienteForm>({
     nombre: '', direccion: '', ciudad: '', cp: '', telefonoCasa: '', telefonoCel: '', idRP: '', presentaciones: ''
   });
@@ -64,11 +77,15 @@ export class RegistroComponent {
   referidoError = signal<string>('');
   referidoSuccess = signal<string>('');
   globalAlert = signal<string>('');
-
   referidosCount = computed(() => this.referidosVinculados().length);
+  idRpOptions = signal<{ id: string; nombre: string }[]>([]);
 
   constructor() {
     this.hydrateDraftState();
+    this.supabase.obtenerIdRPOptions().subscribe(options => {
+      console.log('RPS cargados:', options);
+      this.idRpOptions.set(options ?? []);
+    });
   }
 
   private nowId(prefix: string): string {

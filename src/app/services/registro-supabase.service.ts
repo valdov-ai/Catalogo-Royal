@@ -2,6 +2,11 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, of, catchError, map } from 'rxjs';
 
+  export interface IdRPOption {
+    id: string;
+    nombre: string;
+  }
+
 export interface ClientePayload {
   nombre: string;
   direccion: string;
@@ -96,6 +101,17 @@ guardarReferido(clienteId: string, payload: ReferidoPayload): Observable<boolean
       })
     );
 }
+
+
+  obtenerIdRPOptions(): Observable<IdRPOption[]> {
+    
+    return this.http.get<IdRPOption[]>('assets/data/rps.json').pipe(
+      catchError(err => {
+        console.error('No se pudo cargar rps.json', err);
+        return of([]);
+      })
+    );
+  }
 
   validarReferidoGlobal(payload: Pick<ReferidoPayload, 'nombre' | 'telefono'>): Observable<boolean> {
     const nombre = encodeURIComponent(`eq.${payload.nombre.trim().toLowerCase()}`);

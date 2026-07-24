@@ -11,12 +11,34 @@
           <br> 5: Cuando se logren 4 citas, seras notificado para acordar la entrega de tu regalo.
           <br> 6: Cualquier reclamación perderá validez 90 días despues de hoy.</p>
       </div>
+      <button type="button" class="registro-page__back-link" (click)="abrirReporte()">Ver reporte</button>
       <a routerLink="/" class="registro-page__back-link">&larr; Volver al catálogo</a>
     </div>
 
     @if (globalAlert()) {
       <p class="registro-page__alert registro-page__alert--warning">{{ globalAlert() }}</p>
     }
+
+    <div class="modal-backdrop" *ngIf="vista() === 'reporte'" (click)="cerrarReporte()"></div>
+
+    <section class="report-modal" *ngIf="vista() === 'reporte'">
+      <div class="report-modal__header">
+        <div>
+          <h2>Reporte Referidos</h2>
+        </div>
+
+        <button type="button" class="report-modal__close" (click)="cerrarReporte()">×</button>
+      </div>
+
+      <div class="report-modal__body">
+        <iframe
+          src="https://datastudio.google.com/embed/reporting/ac0d484b-a527-4f23-a170-5f30ec345f06/page/xLl4F"
+          title="Reporte Referidos"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
 
     <div class="registro-page__grid">
       <section class="registro-card">
@@ -74,7 +96,18 @@
 
           <div class="registro-form__field">
             <label for="clienteIdRP">Id RP *</label>
-            <input id="clienteIdRP" type="text" [ngModel]="cliente().idRP" (ngModelChange)="updateClienteField('idRP', $event)" name="clienteIdRP" />
+            <!--<input id="clienteIdRP" type="text" [ngModel]="cliente().idRP" (ngModelChange)="updateClienteField('idRP', $event)" name="clienteIdRP" />-->
+            <select
+              id="clienteIdRP"
+              [ngModel]="cliente().idRP"
+              (ngModelChange)="updateClienteField('idRP', $event)"
+              name="clienteIdRP"
+              required>
+              <option value="" disabled>Selecciona un ID RP</option>
+              <option *ngFor="let opt of idRpOptions()" [value]="opt.id">
+                {{ opt.id }} - {{ opt.nombre }}
+              </option>
+            </select>
           </div>
         </div>
 
@@ -128,7 +161,6 @@
       <div class="registro-lista__header">
         <div>
           <h3>Referidos vinculados</h3>
-          <p>Se guardan de inmediato y permanecen ligados al cliente actual.</p>
         </div>
       </div>
 
