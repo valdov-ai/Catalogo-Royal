@@ -103,7 +103,7 @@
               (ngModelChange)="updateClienteField('idRP', $event)"
               name="clienteIdRP"
               required>
-              <option value="" disabled>Selecciona un ID RP</option>
+              <option value="" disabled>Selecciona Representante</option>
               <option *ngFor="let opt of idRpOptions()" [value]="opt.id">
                 {{ opt.nombre }}
               </option>
