@@ -1,0 +1,153 @@
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark"></span>
+  </div>
+</header>
+
+<main class="home-page" *ngIf="content() as data">
+  <section class="hero">
+    <img class="hero-bg" [src]="data.hero.imagenFondo" alt="" loading="eager">
+    <div class="hero-overlay"></div>
+    <div class="hero-blob"></div>
+
+    <div class="hero-copy fade-in-up">
+      <p class="eyebrow">{{ data.hero.eyebrow }}</p>
+      <h1>{{ data.hero.title }}</h1>
+      <p>{{ data.hero.text }}</p>
+      <div class="hero-actions">
+        <a [routerLink]="data.hero.ctaPrimary.link" class="btn-primary">{{ data.hero.ctaPrimary.label }}</a>
+        <a [routerLink]="data.hero.ctaSecondary.link" class="btn-secondary">{{ data.hero.ctaSecondary.label }}</a>
+      </div>
+    </div>
+
+    <div class="promo-rail fade-in-up delay-1">
+      <article
+        class="promo-card"
+        *ngFor="let promo of data.promos; let i = index"
+        [class.is-active]="activePromo() === i"
+        (mouseenter)="setActivePromo(i)">
+        <img class="promo-img" [src]="promo.imagen" [alt]="promo.titulo" loading="lazy">
+        <span class="promo-badge">{{ promo.badge }}</span>
+        <div class="promo-body">
+          <p class="promo-tag">{{ promo.tag }}</p>
+          <h3>{{ promo.titulo }}</h3>
+          <p>{{ promo.texto }}</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="about fade-in-up">
+    <img class="about-img" [src]="data.about.imagen" alt="Equipo trabajando" loading="lazy">
+    <div>
+      <p class="eyebrow">About</p>
+      <h2>Contenido simulado para presentar la marca</h2>
+      <p>
+        Esta sección puede explicar el modelo comercial, el valor de los productos y la manera en que se acompaña a clientes y equipos.
+      </p>
+    </div>
+  </section>
+
+  <section class="testimonios">
+    <div class="section-head fade-in-up">
+      <p class="eyebrow">Videos y testimonios</p>
+      <h2>Historias de experiencia</h2>
+    </div>
+
+    <div class="testimonios-grid">
+    <article class="video-card fade-in-up" *ngFor="let video of data.videos; let i = index" [style.transition-delay]="(i * 80) + 'ms'">
+      <div class="video-placeholder">
+        <img class="video-img" [src]="video.imagen" [alt]="video.titulo" loading="lazy">
+        <button type="button" class="play-icon" (click)="openVideo(video)" [attr.aria-label]="'Reproducir ' + video.titulo">▶</button>
+        <span class="video-duration">{{ video.duracion }}</span>
+      </div>
+      <h3>{{ video.titulo }}</h3>
+      <p>{{ video.descripcion }}</p>
+    </article>
+
+      <article class="quote-card fade-in-up" *ngFor="let item of data.testimonios; let i = index" [style.transition-delay]="(i * 80) + 'ms'">
+        <img class="quote-avatar-img" [src]="item.avatar" [alt]="item.nombre" loading="lazy">
+        <h3>{{ item.nombre }}</h3>
+        <p class="quote-role">{{ item.rol }}</p>
+        <p>{{ item.texto }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="jobs fade-in-up">
+    <img class="jobs-img" [src]="data.jobs.imagen" alt="Equipo de trabajo colaborando" loading="lazy">
+    <div class="jobs-content">
+      <div class="section-head">
+        <p class="eyebrow">Trabaja con nosotros</p>
+        <h2>Déjanos tus datos</h2>
+      </div>
+
+      <form class="jobs-form" (ngSubmit)="submitForm()">
+        <label>
+          Nombre completo
+          <input type="text" name="nombre" [(ngModel)]="formData.nombre" required>
+        </label>
+
+        <label>
+          Correo electrónico
+          <input type="email" name="email" [(ngModel)]="formData.email" required>
+        </label>
+
+        <label>
+          Teléfono
+          <input type="text" maxlength="10" name="telefono" [(ngModel)]="formData.telefono" required>
+        </label>
+
+        <label>
+          Mensaje
+          <textarea rows="6" name="mensaje" [(ngModel)]="formData.mensaje"></textarea>
+        </label>
+
+        <p class="success" *ngIf="success()">{{ success() }}</p>
+        <p class="error" *ngIf="error()">{{ error() }}</p>
+
+        <button type="submit" [disabled]="loading()">
+          {{ loading() ? 'Enviando...' : 'Enviar solicitud' }}
+        </button>
+      </form>
+    </div>
+  </section>
+  <div class="video-modal" *ngIf="activeVideo() as video" (click)="closeVideo()">
+    <div class="video-modal__box" (click)="$event.stopPropagation()">
+      <div class="video-modal__frame" #videoFrame [class.is-fullscreen]="isFullscreen()">
+        <video *ngIf="isDirectVideo()" [src]="video.videoUrl" controls autoplay playsinline></video>
+        <iframe
+          *ngIf="!isDirectVideo()"
+          [src]="activeVideoUrl()"
+          title="{{ video.titulo }}"
+          frameborder="0"
+          allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+          allowfullscreen>
+        </iframe>
+
+        <div class="video-modal__controls">
+          <button
+            type="button"
+            class="video-modal__icon-btn"
+            (click)="toggleFullscreen()"
+            [attr.aria-label]="isFullscreen() ? 'Salir de pantalla completa' : 'Ver en pantalla completa'">
+            <span *ngIf="!isFullscreen()">⛶</span>
+            <span *ngIf="isFullscreen()">✕⛶</span>
+          </button>
+          <button
+            type="button"
+            class="video-modal__icon-btn"
+            (click)="closeVideo()"
+            aria-label="Cerrar video">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <div class="video-modal__meta" *ngIf="!isFullscreen()">
+        <h3>{{ video.titulo }}</h3>
+        <p>{{ video.descripcion }}</p>
+      </div>
+    </div>
+  </div>
+</main>

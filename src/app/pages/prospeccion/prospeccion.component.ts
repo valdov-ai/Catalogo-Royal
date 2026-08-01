@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
@@ -12,7 +13,7 @@ interface ChecklistOption {
 @Component({
   selector: 'app-prospeccion',
   standalone: true,
-  imports: [FormsModule, RouterLink],
+  imports: [CommonModule,FormsModule, RouterLink],
   templateUrl: './prospeccion.component.html',
   styleUrls: ['./prospeccion.component.scss']
 })

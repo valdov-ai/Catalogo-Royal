@@ -1,0 +1,35 @@
+<section class="perfil-page">
+  <div class="perfil-card">
+    <p class="eyebrow">Perfil incompleto</p>
+    <h1>Actualiza tus datos</h1>
+    <p class="lead">
+      Antes de continuar, necesitamos tu nombre y tu teléfono.
+    </p>
+
+    <form [formGroup]="form" (ngSubmit)="submit()" class="perfil-form">
+      <label>
+        Nombre completo
+        <input type="text" formControlName="nombre" placeholder="Tu nombre completo">
+      </label>
+
+      <small *ngIf="form.controls.nombre.touched && form.controls.nombre.invalid">
+        Captura un nombre válido.
+      </small>
+
+      <label>
+        Teléfono
+        <input type="text" maxlength="10" formControlName="telefono" placeholder="0000000000">
+      </label>
+
+      <small *ngIf="form.controls.telefono.touched && form.controls.telefono.invalid">
+        Captura un teléfono válido.
+      </small>
+
+      <p class="error" *ngIf="error()">{{ error() }}</p>
+
+      <button type="submit" [disabled]="loading()">
+        {{ loading() ? 'Guardando...' : 'Guardar y continuar' }}
+      </button>
+    </form>
+  </div>
+</section>

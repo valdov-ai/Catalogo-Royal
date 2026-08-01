@@ -1,0 +1,41 @@
+<section class="login-page">
+  <div class="login-card">
+    <p class="eyebrow">Acceso privado</p>
+    <h1>Iniciar sesión</h1>
+    <p class="lead">
+      Accede con tu correo y contraseña registrados.
+    </p>
+
+    <form (ngSubmit)="submit()" class="login-form">
+      <label>
+        Correo electrónico
+        <input
+          type="email"
+          [ngModel]="email()"
+          (ngModelChange)="email.set($event)"
+          name="email"
+          autocomplete="email"
+          placeholder="correo@ejemplo.com">
+      </label>
+
+      <label>
+        Contraseña
+        <input
+          type="password"
+          [ngModel]="password()"
+          (ngModelChange)="password.set($event)"
+          name="password"
+          autocomplete="current-password"
+          placeholder="••••••••">
+      </label>
+      <p class="info" *ngIf="info()">{{ info() }}</p>
+      <p class="error" *ngIf="error()">{{ error() }}</p>
+
+      <button type="submit" [disabled]="loading()">
+        {{ loading() ? 'Entrando...' : 'Entrar' }}
+      </button>
+    </form>
+
+    <a routerLink="/home">Volver al inicio</a>
+  </div>
+</section>

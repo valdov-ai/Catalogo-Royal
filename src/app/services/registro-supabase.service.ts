@@ -25,6 +25,14 @@ export interface ReferidoPayload {
   observaciones: string;
 }
 
+
+export interface ProspectoPayload {
+  nombre: string;
+  email: string;
+  telefono: string;
+  mensaje: string;
+}
+
 @Injectable({ providedIn: 'root' })
 export class RegistroSupabaseService {
   private readonly SUPABASE_URL = 'https://xjzcphcywxrsvoavnhkd.supabase.co';
@@ -125,6 +133,36 @@ guardarReferido(clienteId: string, payload: ReferidoPayload): Observable<boolean
         map(rows => (rows?.length ?? 0) === 0),
         catchError(err => {
           console.error('Supabase duplicate check error', err);
+          return of(false);
+        })
+      );
+  }
+  private headersReturnRepresentation() {
+    return {
+      apikey: this.SUPABASE_ANON_KEY,
+      Authorization: `Bearer ${this.SUPABASE_ANON_KEY}`,
+      'Content-Type': 'application/json',
+      Prefer: 'return=representation'
+    };
+  }
+  guardarProspecto(payload: ProspectoPayload): Observable<boolean> {
+    const body = {
+      nombre: payload.nombre.trim(),
+      email: payload.email.trim(),
+      telefono: payload.telefono.trim(),
+      mensaje: payload.mensaje.trim()
+    };
+
+    return this.http
+      .post(
+        `${this.SUPABASE_API_URL}/prospectos`,
+        body,
+        { headers: this.headers() }
+      )
+      .pipe(
+        map(() => true),
+        catchError(err => {
+          console.error('Prospecto error', err);
           return of(false);
         })
       );

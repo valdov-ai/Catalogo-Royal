@@ -1,14 +1,60 @@
-<header class="site-header">
-  <div class="site-header__container">
-    <div class="site-header__brand">
-      <img src="assets/img/royalprestige.svg" alt="Royal Prestige Logo" class="site-header__logo" />
-      <h1 class="site-header__title"> <span>Utensilios de Cocina</span></h1>
+<header class="header" [class.header--open]="menuOpen">
+  <div class="header__bar">
+    <div class="header__brand" routerLink="/home" (click)="closeMenu()">
+      <span class="header__dot"></span>
+      <span>Catálogo Utensilios</span>
     </div>
-    <nav class="site-header__nav">
-      <a routerLink="/" routerLinkActive="site-header__link--active" [routerLinkActiveOptions]="{exact: true}" class="site-header__link">Catálogo</a>
-      <a routerLink="/registro" routerLinkActive="site-header__link--active" class="site-header__link">Registro</a>
-      <a routerLink="/prospeccion" routerLinkActive="site-header__link--active" class="site-header__link">Prospección</a>
-      <a routerLink="/admin" routerLinkActive="site-header__link--active" class="site-header__link">Administrar</a>
-    </nav>
+
+    <button
+      type="button"
+      class="header__toggle"
+      [attr.aria-expanded]="menuOpen"
+      aria-controls="header-panel"
+      aria-label="Abrir navegación"
+      (click)="toggleMenu()">
+      <span class="header__toggle-bar"></span>
+      <span class="header__toggle-bar"></span>
+      <span class="header__toggle-bar"></span>
+    </button>
   </div>
+
+  <div class="header__panel" id="header-panel" [class.header__panel--open]="menuOpen">
+    <nav class="header__nav">
+      <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()">
+        Home
+      </a>
+
+      <a *ngIf="!auth.isLoggedIn()" routerLink="/login" routerLinkActive="active" (click)="closeMenu()">
+        Login
+      </a>
+
+      <a *ngIf="auth.isLoggedIn()" routerLink="/catalogo" routerLinkActive="active" (click)="closeMenu()">
+        Catálogo
+      </a>
+
+      <a *ngIf="auth.isLoggedIn()" routerLink="/registro" routerLinkActive="active" (click)="closeMenu()">
+        Registro
+      </a>
+
+      <a *ngIf="auth.isLoggedIn()" routerLink="/prospeccion" routerLinkActive="active" (click)="closeMenu()">
+        Prospección
+      </a>
+
+      <a *ngIf="auth.isLoggedIn() && auth.hasRole('admin')" routerLink="/administrar" routerLinkActive="active" (click)="closeMenu()">
+        Administrar
+      </a>
+    </nav>
+
+    <div class="header__actions">
+      <span class="header__user" *ngIf="auth.currentUser() as user">
+        {{ user.nombre }}
+      </span>
+
+      <button *ngIf="auth.isLoggedIn()" type="button" (click)="logout()">
+        Cerrar sesión
+      </button>
+    </div>
+  </div>
+
+  <div class="header__backdrop" *ngIf="menuOpen" (click)="closeMenu()"></div>
 </header>

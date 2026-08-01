@@ -1,0 +1,67 @@
+.perfil-page {
+  min-height: calc(100vh - 160px);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.perfil-card {
+  width: min(100%, 520px);
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #ea580c;
+}
+
+.lead {
+  margin-bottom: 20px;
+  color: #4b5563;
+}
+
+.perfil-form {
+  display: grid;
+  gap: 14px;
+}
+
+.perfil-form label {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.perfil-form input {
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  padding: 0 12px;
+}
+
+.perfil-form small {
+  color: #b45309;
+  margin-top: -6px;
+}
+
+.error {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.perfil-form button {
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  background: #ea580c;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}

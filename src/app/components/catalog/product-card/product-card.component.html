@@ -1,43 +1,39 @@
-<article class="product-card">
+<article class="product-card" [class.product-card--list]="viewMode === 'list'">
   <div class="product-card__image-wrapper">
-    <img [src]="mainImage()" [alt]="product.nombre" class="product-card__image" loading="lazy" />
-    <span class="product-card__badge">{{ product.categoria || 'Sin categoría' }}</span>
-    @if (images().length > 1) {
-      <span class="product-card__gallery-count">+{{ images().length - 1 }} fotos</span>
-    }
+    <img class="product-card__image" [src]="mainImage()" [alt]="product.nombre" loading="lazy" width="600" height="450">
+    <span class="product-card__badge">{{ product.categoria || 'Producto' }}</span>
+    <span class="product-card__gallery-count" *ngIf="images().length > 1">+{{ images().length - 1 }} fotos</span>
   </div>
+
   <div class="product-card__body">
-    <h3 class="product-card__title">{{ product.nombre || 'Producto sin nombre' }}</h3>
+    <h3 class="product-card__title">{{ product.nombre }}</h3>
 
-    <div class="product-card__pricing">
-      @if (hasPrice()) {
-        <span class="product-card__price">{{ product.precio_base | currency:'MXN':'symbol':'1.0-0' }}</span>
-      } @else {
-        <span class="product-card__price product-card__price--na">Precio no disponible</span>
-      }
+    <p class="product-card__price" *ngIf="product.precio_base !== null && product.precio_base !== undefined; else noPrice">
+      {{ product.precio_base | currency:'MXN':'symbol':'1.0-0' }}
+    </p>
+    <ng-template #noPrice><p class="product-card__price product-card__price--na">Precio no disponible</p></ng-template>
 
-      @if (hasFinancing()) {
-        <p class="product-card__financing">
-          Anticipo {{ product.anticipo | currency:'MXN':'symbol':'1.0-0' }} ·
-          Saldo {{ product.saldo_a_financiar | currency:'MXN':'symbol':'1.0-0' }}
-        </p>
-      } @else {
-        <p class="product-card__financing product-card__financing--na">Disponible de contado</p>
-      }
+    <div class="product-card__details" *ngIf="showMore(); else compactState">
+      <p class="product-card__finance-line" *ngIf="product.anticipo !== null || product.saldo_a_financiar !== null; else cashOnly">
+        Anticipo {{ product.anticipo | currency:'MXN':'symbol':'1.0-0' }} · Saldo {{ product.saldo_a_financiar | currency:'MXN':'symbol':'1.0-0' }}
+      </p>
+      <ng-template #cashOnly><p class="product-card__finance-line product-card__finance-line--muted">Disponible de contado</p></ng-template>
+
+      <ng-container *ngIf="mensualidadesList().length; else noMensualidades">
+        <p class="product-card__mensualidad-row" *ngFor="let plan of mensualidadesList()">{{ plan.plazo }}M: {{ plan.plazo }} Mens {{ plan.monto | currency:'MXN':'symbol':'1.0-0' }}</p>
+      </ng-container>
+      <ng-template #noMensualidades><p class="product-card__finance-line product-card__finance-line--muted">Sin plan de mensualidades</p></ng-template>
     </div>
 
-    @if (hasMensualidades()) {
-      <ul class="product-card__mensualidades">
-        @for (opcion of mensualidadesList(); track opcion.plazo) {
-          <li class="product-card__mensualidad-item">{{ opcion.plazo }}: {{ opcion.detalle }}</li>
-        }
-      </ul>
-    } @else {
-      <p class="product-card__mensualidades--na">Sin plan de mensualidades</p>
-    }
+    <ng-template #compactState>
+      <p class="product-card__finance-line product-card__finance-line--muted">Anticipo {{ product.anticipo | currency:'MXN':'symbol':'1.0-0' }} · Saldo {{ product.saldo_a_financiar | currency:'MXN':'symbol':'1.0-0' }}</p>
+      <p class="product-card__finance-line product-card__finance-line--muted" *ngIf="mensualidadesList().length; else compactNoMensualidades">{{ mensualidadesList().length }} plan(es) de mensualidad</p>
+      <ng-template #compactNoMensualidades><p class="product-card__finance-line product-card__finance-line--muted">Sin plan de mensualidades</p></ng-template>
+    </ng-template>
 
     <div class="product-card__footer">
-      <button type="button" class="product-card__btn">Cotizar</button>
+      <button type="button" class="product-card__ghost-btn" (click)="toggleMore()">{{ showMore() ? 'Ver menos' : 'Ver más' }}</button>
+      <button type="button" class="product-card__btn" [disabled]="added" (click)="addToQuote()">{{ added ? 'Agregado' : 'Cotizar' }}</button>
     </div>
   </div>
 </article>

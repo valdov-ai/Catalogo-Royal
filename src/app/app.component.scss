@@ -1,9 +1,65 @@
 :host {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  display: block;
+  min-height: 100dvh;
+  background: #f8fafc;
+  color: #0f172a;
 }
 
-main {
+.app-shell {
+   min-height: calc(100vh - 140px);
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
   flex: 1;
+  display: block;
+  min-height: 0;
+}
+
+.app-main.without-header {
+  padding-top: 0;
+}
+
+.session-warning {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2000;
+}
+
+.session-warning__card {
+  width: min(360px, calc(100vw - 32px));
+  background: #fff7ed;
+  border: 1px solid #fdba74;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+  padding: 16px;
+}
+
+.session-warning__card h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: #9a3412;
+}
+
+.session-warning__card p {
+  margin: 0 0 14px;
+  color: #7c2d12;
+  line-height: 1.45;
+}
+
+.session-warning__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.session-warning__actions button {
+  border: none;
+  border-radius: 10px;
+  background: #ea580c;
+  color: white;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
 }
