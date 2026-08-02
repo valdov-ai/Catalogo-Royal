@@ -1,48 +1,40 @@
 {
   "hero": {
-    "eyebrow": "Plataforma comercial",
-    "title": "Gestión de catálogo, registro y seguimiento en un solo lugar",
-    "text": "Centraliza promociones, referidos, cotizaciones y administración con una experiencia clara y rápida.",
-    "ctaPrimary": { "label": "Iniciar sesión", "link": "/login" },
-    "ctaSecondary": { "label": "Ver catálogo", "link": "/catalogo" },
-    "imagenFondo": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1600&q=80"
+    "eyebrow": "Premiación Semestral",
+    "title": "#TopTenMusemex",
+    "text": "🏆 Celebramos el esfuerzo y los resultados de nuestros distribuidores con premiaciones semestrales que reconocen el compromiso y el crecimiento de cada territorio.",
+    "ctaPrimary": { "label": "Inicia sesión", "link": "/login" },
+    "ctaSecondary": { "label": "Prospecta", "link": "/prospeccion/" },
+    "imagenFondo": "./assets/img/escenario.jpeg"
   },
   "promos": [
     {
       "id": "promo-1",
-      "tag": "Promoción",
-      "titulo": "Bonos de temporada",
-      "texto": "Beneficios especiales en paquetes seleccionados para clientes frecuentes.",
+      "tag": "News",
+      "titulo": "Emprendimiento",
+      "texto": "🚀 ¿Sabías que tu conocimiento, tu tiempo y tus habilidades tienen un valor que puedes monetizar? En MUSEMEX te enseñamos a reconocerlo y convertirlo en un negocio real.",
       "badge": "Nuevo",
       "imagen": "https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "promo-2",
       "tag": "Comunicado",
-      "titulo": "Plataforma unificada",
-      "texto": "Gestiona registros y seguimiento comercial desde un solo panel.",
+      "titulo": "Escuela de Empresarios",
+      "texto": "🎓 A través de nuestra Escuela de Empresarios Líderes, contamos con conferencistas de talla internacional que impulsan tu desarrollo personal y profesional. ",
       "badge": "Actualizado",
       "imagen": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "promo-3",
-      "tag": "Campaña",
-      "titulo": "Cotización rápida",
-      "texto": "Consulta el catálogo actualizado y prepara tu cotización de compra y regalo.",
-      "badge": "Vigente",
-      "imagen": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      "id": "promo-3",
-      "tag": "Campaña 2",
-      "titulo": "Cotización Lenta",
-      "texto": "Consulta el catálogo actualizado y prepara tu cotización de compra y regalo.",
+      "tag": "AWARDS 2026",
+      "titulo": "Reconocimiento",
+      "texto": "🏆 Celebramos el esfuerzo y los resultados de nuestros distribuidores con premiaciones semestrales que reconocen el compromiso y el crecimiento de cada territorio. ",
       "badge": "Vigente",
       "imagen": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80"
     }
   ],
   "about": {
-    "imagen": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80"
+    "imagen": "./assets/img/musemex-logo.png"
   },
   "videos": [
     {

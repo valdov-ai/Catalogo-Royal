@@ -1,8 +1,8 @@
-<header class="topbar">
+<!--<header class="topbar">
   <div class="brand">
     <span class="brand-mark"></span>
   </div>
-</header>
+</header>-->
 
 <main class="home-page" *ngIf="content() as data">
   <section class="hero">
@@ -40,10 +40,10 @@
   <section class="about fade-in-up">
     <img class="about-img" [src]="data.about.imagen" alt="Equipo trabajando" loading="lazy">
     <div>
-      <p class="eyebrow">About</p>
-      <h2>Contenido simulado para presentar la marca</h2>
+      <p class="eyebrow">Nosotros</p>
+      <h2>Grupo MUSEMEX</h2>
       <p>
-        Esta sección puede explicar el modelo comercial, el valor de los productos y la manera en que se acompaña a clientes y equipos.
+        En MUSEMEX transformamos el talento en valor. Te enseñamos a reconocer y monetizar tu conocimiento, tu tiempo y tus habilidades, conectándote con una comunidad de emprendedores y líderes en crecimiento constante en todo México.
       </p>
     </div>
   </section>
@@ -79,7 +79,7 @@
     <div class="jobs-content">
       <div class="section-head">
         <p class="eyebrow">Trabaja con nosotros</p>
-        <h2>Déjanos tus datos</h2>
+        <h2>Trabaja con Nosotros</h2>
       </div>
 
       <form class="jobs-form" (ngSubmit)="submitForm()">

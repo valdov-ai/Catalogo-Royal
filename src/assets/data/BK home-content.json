@@ -1,0 +1,118 @@
+{
+  "hero": {
+    "eyebrow": "Premiación Semestral",
+    "title": "#TopTenMusemex",
+    "text": "🏆 Celebramos el esfuerzo y los resultados de nuestros distribuidores con premiaciones semestrales que reconocen el compromiso y el crecimiento de cada territorio.",
+    "ctaPrimary": { "label": "Iniciar sesión", "link": "/login" },
+    "ctaSecondary": { "label": "Ver catálogo", "link": "/catalogo" },
+    "imagenFondo": "./assets/img/escenario.jpeg"
+  },
+  "promos": [
+    {
+      "id": "promo-1",
+      "tag": "Promoción",
+      "titulo": "Bonos de temporada",
+      "texto": "Beneficios especiales en paquetes seleccionados para clientes frecuentes.",
+      "badge": "Nuevo",
+      "imagen": "https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "promo-2",
+      "tag": "Comunicado",
+      "titulo": "Plataforma unificada",
+      "texto": "Gestiona registros y seguimiento comercial desde un solo panel.",
+      "badge": "Actualizado",
+      "imagen": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "promo-3",
+      "tag": "Campaña",
+      "titulo": "Cotización rápida",
+      "texto": "Consulta el catálogo actualizado y prepara tu cotización de compra y regalo.",
+      "badge": "Vigente",
+      "imagen": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "promo-3",
+      "tag": "Campaña 2",
+      "titulo": "Cotización Lenta",
+      "texto": "Consulta el catálogo actualizado y prepara tu cotización de compra y regalo.",
+      "badge": "Vigente",
+      "imagen": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "about": {
+    "imagen": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80"
+  },
+  "videos": [
+    {
+      "titulo": "Recorrido por la plataforma",
+      "descripcion": "Video introductorio sobre catálogo, cotización y seguimiento comercial.",
+      "duracion": "2:14",
+      "imagen": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "titulo": "Historias de resultados",
+      "descripcion": "Equipos comerciales comparten su experiencia usando la plataforma.",
+      "duracion": "1:48",
+      "imagen": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "titulo": "Recorrido 1",
+      "descripcion": "Video introductorio sobre catálogo, cotización y seguimiento comercial.",
+      "duracion": "2:14",
+      "imagen": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "titulo": "Historias 2",
+      "descripcion": "Equipos comerciales comparten su experiencia usando la plataforma.",
+      "duracion": "1:48",
+      "imagen": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    }
+  ],
+  "testimonios": [
+    {
+      "nombre": "Ana López",
+      "rol": "Ejecutiva comercial",
+      "texto": "La plataforma simplificó el seguimiento de clientes y referidos.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=facearea&facepad=3&w=200&q=80"
+    },
+    {
+      "nombre": "Carlos Méndez",
+      "rol": "Coordinador de ventas",
+      "texto": "El catálogo y el registro nos ayudan a cerrar más rápido.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=facearea&facepad=3&w=200&q=80"
+    },
+    {
+      "nombre": "Diana Ruiz",
+      "rol": "Asesora senior",
+      "texto": "Las cotizaciones con financiamiento son mucho más claras para el cliente.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=facearea&facepad=3&w=200&q=80"
+    },
+    {
+      "nombre": "Ana López 2",
+      "rol": "Ejecutiva comercial",
+      "texto": "La plataforma simplificó el seguimiento de clientes y referidos.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=facearea&facepad=3&w=200&q=80"
+    },
+    {
+      "nombre": "Carlos Méndez 2",
+      "rol": "Coordinador de ventas",
+      "texto": "El catálogo y el registro nos ayudan a cerrar más rápido.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=facearea&facepad=3&w=200&q=80"
+    },
+    {
+      "nombre": "Diana Ruiz 2",
+      "rol": "Asesora senior",
+      "texto": "Las cotizaciones con financiamiento son mucho más claras para el cliente.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=facearea&facepad=3&w=200&q=80"
+    }
+  ],
+  "jobs": {
+    "imagen": "https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1200&q=80"
+  }
+}
