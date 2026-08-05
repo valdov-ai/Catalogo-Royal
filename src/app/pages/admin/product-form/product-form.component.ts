@@ -184,6 +184,6 @@ export class ProductFormComponent implements OnInit {
   }
 
   cancel(): void {
-    this.router.navigate(['/admin']);
+    this.router.navigate(['/administrar']);
   }
 }

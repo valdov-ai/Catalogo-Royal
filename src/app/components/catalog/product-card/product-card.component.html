@@ -1,6 +1,6 @@
 <article class="product-card" [class.product-card--list]="viewMode === 'list'">
   <div class="product-card__image-wrapper">
-    <img class="product-card__image" [src]="mainImage()" [alt]="product.nombre" loading="lazy" width="600" height="450">
+    <img class="product-card__image" [src]="mainImage()" [alt]="product.nombre" loading="lazy">
     <span class="product-card__badge">{{ product.categoria || 'Producto' }}</span>
     <span class="product-card__gallery-count" *ngIf="images().length > 1">+{{ images().length - 1 }} fotos</span>
   </div>

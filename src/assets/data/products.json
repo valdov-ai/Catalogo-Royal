@@ -11,9 +11,7 @@
       "6M": "6 Mens $0.5"
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-001/img1.jpg",
-      "https://demo-images.example.com/products/PROD-001/img2.jpg",
-      "https://demo-images.example.com/products/PROD-001/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -25,9 +23,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-002/img1.jpg",
-      "https://demo-images.example.com/products/PROD-002/img2.jpg",
-      "https://demo-images.example.com/products/PROD-002/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -39,9 +35,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-003/img1.jpg",
-      "https://demo-images.example.com/products/PROD-003/img2.jpg",
-      "https://demo-images.example.com/products/PROD-003/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -53,9 +47,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-004/img1.jpg",
-      "https://demo-images.example.com/products/PROD-004/img2.jpg",
-      "https://demo-images.example.com/products/PROD-004/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -67,9 +59,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-005/img1.jpg",
-      "https://demo-images.example.com/products/PROD-005/img2.jpg",
-      "https://demo-images.example.com/products/PROD-005/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -81,9 +71,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-006/img1.jpg",
-      "https://demo-images.example.com/products/PROD-006/img2.jpg",
-      "https://demo-images.example.com/products/PROD-006/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -95,9 +83,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-007/img1.jpg",
-      "https://demo-images.example.com/products/PROD-007/img2.jpg",
-      "https://demo-images.example.com/products/PROD-007/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -109,9 +95,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-008/img1.jpg",
-      "https://demo-images.example.com/products/PROD-008/img2.jpg",
-      "https://demo-images.example.com/products/PROD-008/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -123,9 +107,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-009/img1.jpg",
-      "https://demo-images.example.com/products/PROD-009/img2.jpg",
-      "https://demo-images.example.com/products/PROD-009/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -137,9 +119,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-010/img1.jpg",
-      "https://demo-images.example.com/products/PROD-010/img2.jpg",
-      "https://demo-images.example.com/products/PROD-010/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -153,9 +133,7 @@
       "3": 911
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-011/img1.jpg",
-      "https://demo-images.example.com/products/PROD-011/img2.jpg",
-      "https://demo-images.example.com/products/PROD-011/img3.jpg"
+      "./assets/img/utencilios/IMG_8973.jpeg"
     ]
   },
   {
@@ -167,9 +145,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-012/img1.jpg",
-      "https://demo-images.example.com/products/PROD-012/img2.jpg",
-      "https://demo-images.example.com/products/PROD-012/img3.jpg"
+      "./assets/img/utencilios/IMG_8974.jpeg"
     ]
   },
   {
@@ -183,9 +159,7 @@
       "3": 1131
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-013/img1.jpg",
-      "https://demo-images.example.com/products/PROD-013/img2.jpg",
-      "https://demo-images.example.com/products/PROD-013/img3.jpg"
+      "./assets/img/utencilios/IMG_8963.jpeg"
     ]
   },
   {
@@ -199,9 +173,7 @@
       "3": 870
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-014/img1.jpg",
-      "https://demo-images.example.com/products/PROD-014/img2.jpg",
-      "https://demo-images.example.com/products/PROD-014/img3.jpg"
+      "./assets/img/utencilios/IMG_8964.jpeg"
     ]
   },
   {
@@ -215,9 +187,7 @@
       "3": 817
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-015/img1.jpg",
-      "https://demo-images.example.com/products/PROD-015/img2.jpg",
-      "https://demo-images.example.com/products/PROD-015/img3.jpg"
+      "./assets/img/utencilios/IMG_8965.jpeg"
     ]
   },
   {
@@ -231,9 +201,7 @@
       "3": 997
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-016/img1.jpg",
-      "https://demo-images.example.com/products/PROD-016/img2.jpg",
-      "https://demo-images.example.com/products/PROD-016/img3.jpg"
+      "./assets/img/utencilios/IMG_8966.jpeg"
     ]
   },
   {
@@ -245,9 +213,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-017/img1.jpg",
-      "https://demo-images.example.com/products/PROD-017/img2.jpg",
-      "https://demo-images.example.com/products/PROD-017/img3.jpg"
+      "./assets/img/utencilios/IMG_8967.jpeg"
     ]
   },
   {
@@ -259,9 +225,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-018/img1.jpg",
-      "https://demo-images.example.com/products/PROD-018/img2.jpg",
-      "https://demo-images.example.com/products/PROD-018/img3.jpg"
+      "./assets/img/utencilios/IMG_8968.jpeg"
     ]
   },
   {
@@ -273,9 +237,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-019/img1.jpg",
-      "https://demo-images.example.com/products/PROD-019/img2.jpg",
-      "https://demo-images.example.com/products/PROD-019/img3.jpg"
+      "./assets/img/utencilios/IMG_8970.jpeg"
     ]
   },
   {
@@ -287,9 +249,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-020/img1.jpg",
-      "https://demo-images.example.com/products/PROD-020/img2.jpg",
-      "https://demo-images.example.com/products/PROD-020/img3.jpg"
+      "./assets/img/utencilios/IMG_8971.jpeg"
     ]
   },
   {
@@ -301,9 +261,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-021/img1.jpg",
-      "https://demo-images.example.com/products/PROD-021/img2.jpg",
-      "https://demo-images.example.com/products/PROD-021/img3.jpg"
+      "./assets/img/utencilios/IMG_8972.jpeg"
     ]
   },
   {
@@ -315,9 +273,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-022/img1.jpg",
-      "https://demo-images.example.com/products/PROD-022/img2.jpg",
-      "https://demo-images.example.com/products/PROD-022/img3.jpg"
+      "./assets/img/utencilios/IMG_8959.jpeg"
     ]
   },
   {
@@ -329,9 +285,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-023/img1.jpg",
-      "https://demo-images.example.com/products/PROD-023/img2.jpg",
-      "https://demo-images.example.com/products/PROD-023/img3.jpg"
+      "./assets/img/utencilios/IMG_8960.jpeg"
     ]
   },
   {
@@ -343,9 +297,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-024/img1.jpg",
-      "https://demo-images.example.com/products/PROD-024/img2.jpg",
-      "https://demo-images.example.com/products/PROD-024/img3.jpg"
+      "./assets/img/utencilios/IMG_8961.jpeg"
     ]
   },
   {
@@ -357,9 +309,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-025/img1.jpg",
-      "https://demo-images.example.com/products/PROD-025/img2.jpg",
-      "https://demo-images.example.com/products/PROD-025/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -371,9 +321,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-026/img1.jpg",
-      "https://demo-images.example.com/products/PROD-026/img2.jpg",
-      "https://demo-images.example.com/products/PROD-026/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -385,9 +333,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-027/img1.jpg",
-      "https://demo-images.example.com/products/PROD-027/img2.jpg",
-      "https://demo-images.example.com/products/PROD-027/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -399,9 +345,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-028/img1.jpg",
-      "https://demo-images.example.com/products/PROD-028/img2.jpg",
-      "https://demo-images.example.com/products/PROD-028/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -413,9 +357,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-029/img1.jpg",
-      "https://demo-images.example.com/products/PROD-029/img2.jpg",
-      "https://demo-images.example.com/products/PROD-029/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -427,9 +369,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-030/img1.jpg",
-      "https://demo-images.example.com/products/PROD-030/img2.jpg",
-      "https://demo-images.example.com/products/PROD-030/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -441,9 +381,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-031/img1.jpg",
-      "https://demo-images.example.com/products/PROD-031/img2.jpg",
-      "https://demo-images.example.com/products/PROD-031/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -455,9 +393,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-032/img1.jpg",
-      "https://demo-images.example.com/products/PROD-032/img2.jpg",
-      "https://demo-images.example.com/products/PROD-032/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -469,9 +405,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-033/img1.jpg",
-      "https://demo-images.example.com/products/PROD-033/img2.jpg",
-      "https://demo-images.example.com/products/PROD-033/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -483,9 +417,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-034/img1.jpg",
-      "https://demo-images.example.com/products/PROD-034/img2.jpg",
-      "https://demo-images.example.com/products/PROD-034/img3.jpg"
+      "./assets/img/utencilios/IMG_8962.jpeg"
     ]
   },
   {
@@ -501,9 +433,7 @@
       "18": 822
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-035/img1.jpg",
-      "https://demo-images.example.com/products/PROD-035/img2.jpg",
-      "https://demo-images.example.com/products/PROD-035/img3.jpg"
+      "./assets/img/utencilios/IMG_8953.jpeg"
     ]
   },
   {
@@ -517,9 +447,7 @@
       "3": 1087
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-036/img1.jpg",
-      "https://demo-images.example.com/products/PROD-036/img2.jpg",
-      "https://demo-images.example.com/products/PROD-036/img3.jpg"
+      "./assets/img/utencilios/IMG_8953.jpeg"
     ]
   },
   {
@@ -533,9 +461,7 @@
       "3": 1556
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-037/img1.jpg",
-      "https://demo-images.example.com/products/PROD-037/img2.jpg",
-      "https://demo-images.example.com/products/PROD-037/img3.jpg"
+      "./assets/img/utencilios/IMG_8953.jpeg"
     ]
   },
   {
@@ -547,9 +473,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-038/img1.jpg",
-      "https://demo-images.example.com/products/PROD-038/img2.jpg",
-      "https://demo-images.example.com/products/PROD-038/img3.jpg"
+      "./assets/img/utencilios/IMG_8954.jpeg"
     ]
   },
   {
@@ -563,9 +487,7 @@
       "3": 2304
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-039/img1.jpg",
-      "https://demo-images.example.com/products/PROD-039/img2.jpg",
-      "https://demo-images.example.com/products/PROD-039/img3.jpg"
+      "./assets/img/utencilios/IMG_8955.jpeg"
     ]
   },
   {
@@ -579,9 +501,7 @@
       "3": 2023
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-040/img1.jpg",
-      "https://demo-images.example.com/products/PROD-040/img2.jpg",
-      "https://demo-images.example.com/products/PROD-040/img3.jpg"
+      "./assets/img/utencilios/IMG_8956.jpeg"
     ]
   },
   {
@@ -593,9 +513,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-041/img1.jpg",
-      "https://demo-images.example.com/products/PROD-041/img2.jpg",
-      "https://demo-images.example.com/products/PROD-041/img3.jpg"
+      "./assets/img/utencilios/IMG_8957.jpeg"
     ]
   },
   {
@@ -607,9 +525,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-042/img1.jpg",
-      "https://demo-images.example.com/products/PROD-042/img2.jpg",
-      "https://demo-images.example.com/products/PROD-042/img3.jpg"
+      "./assets/img/utencilios/IMG_8958.jpeg"
     ]
   },
   {
@@ -623,9 +539,7 @@
       "3": 1683
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-043/img1.jpg",
-      "https://demo-images.example.com/products/PROD-043/img2.jpg",
-      "https://demo-images.example.com/products/PROD-043/img3.jpg"
+      "./assets/img/utencilios/IMG_8944.jpeg"
     ]
   },
   {
@@ -637,9 +551,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-044/img1.jpg",
-      "https://demo-images.example.com/products/PROD-044/img2.jpg",
-      "https://demo-images.example.com/products/PROD-044/img3.jpg"
+      "./assets/img/utencilios/IMG_8945.jpeg"
     ]
   },
   {
@@ -651,9 +563,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-045/img1.jpg",
-      "https://demo-images.example.com/products/PROD-045/img2.jpg",
-      "https://demo-images.example.com/products/PROD-045/img3.jpg"
+      "./assets/img/utencilios/IMG_8946.jpeg"
     ]
   },
   {
@@ -669,9 +579,7 @@
       "18": 911
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-046/img1.jpg",
-      "https://demo-images.example.com/products/PROD-046/img2.jpg",
-      "https://demo-images.example.com/products/PROD-046/img3.jpg"
+      "./assets/img/utencilios/IMG_8947.jpeg"
     ]
   },
   {
@@ -685,9 +593,7 @@
       "3": 1153
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-047/img1.jpg",
-      "https://demo-images.example.com/products/PROD-047/img2.jpg",
-      "https://demo-images.example.com/products/PROD-047/img3.jpg"
+      "./assets/img/utencilios/IMG_8948.jpeg"
     ]
   },
   {
@@ -699,9 +605,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-048/img1.jpg",
-      "https://demo-images.example.com/products/PROD-048/img2.jpg",
-      "https://demo-images.example.com/products/PROD-048/img3.jpg"
+      "./assets/img/utencilios/IMG_8950.jpeg"
     ]
   },
   {
@@ -713,9 +617,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-049/img1.jpg",
-      "https://demo-images.example.com/products/PROD-049/img2.jpg",
-      "https://demo-images.example.com/products/PROD-049/img3.jpg"
+      "./assets/img/utencilios/IMG_8950.jpeg"
     ]
   },
   {
@@ -727,9 +629,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-050/img1.jpg",
-      "https://demo-images.example.com/products/PROD-050/img2.jpg",
-      "https://demo-images.example.com/products/PROD-050/img3.jpg"
+      "./assets/img/utencilios/IMG_8949.jpeg"
     ]
   },
   {
@@ -741,9 +641,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-051/img1.jpg",
-      "https://demo-images.example.com/products/PROD-051/img2.jpg",
-      "https://demo-images.example.com/products/PROD-051/img3.jpg"
+      "./assets/img/utencilios/IMG_8951.jpeg"
     ]
   },
   {
@@ -759,9 +657,7 @@
       "18": 924
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-052/img1.jpg",
-      "https://demo-images.example.com/products/PROD-052/img2.jpg",
-      "https://demo-images.example.com/products/PROD-052/img3.jpg"
+      "./assets/img/utencilios/IMG_8919.jpeg"
     ]
   },
   {
@@ -777,9 +673,7 @@
       "18": 924
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-053/img1.jpg",
-      "https://demo-images.example.com/products/PROD-053/img2.jpg",
-      "https://demo-images.example.com/products/PROD-053/img3.jpg"
+      "./assets/img/utencilios/IMG_8920.jpeg"
     ]
   },
   {
@@ -793,9 +687,7 @@
       "3": 1235
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-054/img1.jpg",
-      "https://demo-images.example.com/products/PROD-054/img2.jpg",
-      "https://demo-images.example.com/products/PROD-054/img3.jpg"
+      "./assets/img/utencilios/IMG_8921.jpeg" 
     ]
   },
   {
@@ -809,9 +701,7 @@
       "3": 2366
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-055/img1.jpg",
-      "https://demo-images.example.com/products/PROD-055/img2.jpg",
-      "https://demo-images.example.com/products/PROD-055/img3.jpg"
+      "./assets/img/utencilios/IMG_8922.jpeg"
     ]
   },
   {
@@ -825,9 +715,7 @@
       "3": 932
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-056/img1.jpg",
-      "https://demo-images.example.com/products/PROD-056/img2.jpg",
-      "https://demo-images.example.com/products/PROD-056/img3.jpg"
+      "./assets/img/utencilios/IMG_8923.jpeg"
     ]
   },
   {
@@ -841,9 +729,7 @@
       "3": 1511
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-057/img1.jpg",
-      "https://demo-images.example.com/products/PROD-057/img2.jpg",
-      "https://demo-images.example.com/products/PROD-057/img3.jpg"
+      "./assets/img/utencilios/IMG_8921.jpeg"
     ]
   },
   {
@@ -857,9 +743,7 @@
       "3": 1184
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-058/img1.jpg",
-      "https://demo-images.example.com/products/PROD-058/img2.jpg",
-      "https://demo-images.example.com/products/PROD-058/img3.jpg"
+      "./assets/img/utencilios/IMG_8923.jpeg"
     ]
   },
   {
@@ -871,9 +755,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-059/img1.jpg",
-      "https://demo-images.example.com/products/PROD-059/img2.jpg",
-      "https://demo-images.example.com/products/PROD-059/img3.jpg"
+      "./assets/img/utencilios/IMG_8924.jpeg"
     ]
   },
   {
@@ -887,9 +769,7 @@
       "3": 2490
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-060/img1.jpg",
-      "https://demo-images.example.com/products/PROD-060/img2.jpg",
-      "https://demo-images.example.com/products/PROD-060/img3.jpg"
+      "./assets/img/utencilios/IMG_8934.jpeg"
     ]
   },
   {
@@ -904,9 +784,7 @@
       "12": 1059
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-061/img1.jpg",
-      "https://demo-images.example.com/products/PROD-061/img2.jpg",
-      "https://demo-images.example.com/products/PROD-061/img3.jpg"
+      "./assets/img/utencilios/IMG_8935.jpeg"
     ]
   },
   {
@@ -924,9 +802,7 @@
       "29": 1697
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-062/img1.jpg",
-      "https://demo-images.example.com/products/PROD-062/img2.jpg",
-      "https://demo-images.example.com/products/PROD-062/img3.jpg"
+      "./assets/img/utencilios/IMG_8936.jpeg"
     ]
   },
   {
@@ -940,9 +816,7 @@
       "3": 1618
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-063/img1.jpg",
-      "https://demo-images.example.com/products/PROD-063/img2.jpg",
-      "https://demo-images.example.com/products/PROD-063/img3.jpg"
+      "./assets/img/utencilios/IMG_8937.jpeg"
     ]
   },
   {
@@ -956,9 +830,7 @@
       "3": 1711
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-064/img1.jpg",
-      "https://demo-images.example.com/products/PROD-064/img2.jpg",
-      "https://demo-images.example.com/products/PROD-064/img3.jpg"
+      "./assets/img/utencilios/IMG_8938.jpeg"
     ]
   },
   {
@@ -972,9 +844,7 @@
       "3": 1867
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-065/img1.jpg",
-      "https://demo-images.example.com/products/PROD-065/img2.jpg",
-      "https://demo-images.example.com/products/PROD-065/img3.jpg"
+      "./assets/img/utencilios/IMG_8939.jpeg"
     ]
   },
   {
@@ -986,9 +856,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-066/img1.jpg",
-      "https://demo-images.example.com/products/PROD-066/img2.jpg",
-      "https://demo-images.example.com/products/PROD-066/img3.jpg"
+      "./assets/img/utencilios/IMG_8940.jpeg"
     ]
   },
   {
@@ -1000,9 +868,7 @@
     "saldo_a_financiar": 1487,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-067/img1.jpg",
-      "https://demo-images.example.com/products/PROD-067/img2.jpg",
-      "https://demo-images.example.com/products/PROD-067/img3.jpg"
+      "./assets/img/utencilios/IMG_8941.jpeg"
     ]
   },
   {
@@ -1016,9 +882,7 @@
       "3": 1029
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-068/img1.jpg",
-      "https://demo-images.example.com/products/PROD-068/img2.jpg",
-      "https://demo-images.example.com/products/PROD-068/img3.jpg"
+      "./assets/img/utencilios/IMG_8942.jpeg"
     ]
   },
   {
@@ -1036,9 +900,7 @@
       "29": 1590
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-069/img1.jpg",
-      "https://demo-images.example.com/products/PROD-069/img2.jpg",
-      "https://demo-images.example.com/products/PROD-069/img3.jpg"
+      "./assets/img/utencilios/IMG_8931.jpeg"
     ]
   },
   {
@@ -1052,9 +914,7 @@
       "3": 1309
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-070/img1.jpg",
-      "https://demo-images.example.com/products/PROD-070/img2.jpg",
-      "https://demo-images.example.com/products/PROD-070/img3.jpg"
+      "./assets/img/utencilios/IMG_8.jpeg"
     ]
   },
   {
@@ -1072,9 +932,7 @@
       "29": 874
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-071/img1.jpg",
-      "https://demo-images.example.com/products/PROD-071/img2.jpg",
-      "https://demo-images.example.com/products/PROD-071/img3.jpg"
+      "./assets/img/utencilios/IMG_8932.jpeg"
     ]
   },
   {
@@ -1088,9 +946,7 @@
       "3": 1059
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-072/img1.jpg",
-      "https://demo-images.example.com/products/PROD-072/img2.jpg",
-      "https://demo-images.example.com/products/PROD-072/img3.jpg"
+      "./assets/img/utencilios/IMG_8933.jpeg"
     ]
   },
   {
@@ -1104,9 +960,9 @@
       "3": 1091
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-073/img1.jpg",
-      "https://demo-images.example.com/products/PROD-073/img2.jpg",
-      "https://demo-images.example.com/products/PROD-073/img3.jpg"
+      "./assets/img/utencilios/IMG_8933.jpeg",
+      "./assets/img/utencilios/IMG_8933.jpeg",
+      "./assets/img/utencilios/IMG_8933.jpeg"
     ]
   },
   {
@@ -1118,9 +974,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-074/img1.jpg",
-      "https://demo-images.example.com/products/PROD-074/img2.jpg",
-      "https://demo-images.example.com/products/PROD-074/img3.jpg"
+      "./assets/img/utencilios/IMG_8925.jpeg"
     ]
   },
   {
@@ -1136,9 +990,7 @@
       "18": 876
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-075/img1.jpg",
-      "https://demo-images.example.com/products/PROD-075/img2.jpg",
-      "https://demo-images.example.com/products/PROD-075/img3.jpg"
+      "./assets/img/utencilios/IMG_8928.jpeg" 
     ]
   },
   {
@@ -1153,9 +1005,8 @@
       "12": 1011
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-076/img1.jpg",
-      "https://demo-images.example.com/products/PROD-076/img2.jpg",
-      "https://demo-images.example.com/products/PROD-076/img3.jpg"
+      "./assets/img/utencilios/IMG_8928.jpeg", 
+      "./assets/img/utencilios/IMG_8925.jpeg"
     ]
   },
   {
@@ -1169,9 +1020,7 @@
       "3": 989
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-077/img1.jpg",
-      "https://demo-images.example.com/products/PROD-077/img2.jpg",
-      "https://demo-images.example.com/products/PROD-077/img3.jpg"
+      "./assets/img/utencilios/IMG_8928.jpeg"
     ]
   },
   {
@@ -1185,9 +1034,7 @@
       "3": 1556
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-078/img1.jpg",
-      "https://demo-images.example.com/products/PROD-078/img2.jpg",
-      "https://demo-images.example.com/products/PROD-078/img3.jpg"
+      "./assets/img/utencilios/IMG_8929.jpeg"
     ]
   },
   {
@@ -1201,9 +1048,7 @@
       "3": 1244
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-079/img1.jpg",
-      "https://demo-images.example.com/products/PROD-079/img2.jpg",
-      "https://demo-images.example.com/products/PROD-079/img3.jpg"
+      "./assets/img/utencilios/IMG_8926.jpeg"
     ]
   },
   {
@@ -1221,9 +1066,7 @@
       "29": 1029
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-080/img1.jpg",
-      "https://demo-images.example.com/products/PROD-080/img2.jpg",
-      "https://demo-images.example.com/products/PROD-080/img3.jpg"
+      "./assets/img/utencilios/IMG_8927.jpeg"
     ]
   },
   {
@@ -1237,9 +1080,7 @@
       "3": 1556
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-081/img1.jpg",
-      "https://demo-images.example.com/products/PROD-081/img2.jpg",
-      "https://demo-images.example.com/products/PROD-081/img3.jpg"
+      "./assets/img/utencilios/IMG_8930.jpeg"
     ]
   },
   {
@@ -1257,9 +1098,7 @@
       "29": 935
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-082/img1.jpg",
-      "https://demo-images.example.com/products/PROD-082/img2.jpg",
-      "https://demo-images.example.com/products/PROD-082/img3.jpg"
+      "./assets/img/utencilios/IMG_8914.jpeg"
     ]
   },
   {
@@ -1277,9 +1116,7 @@
       "29": 1169
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-083/img1.jpg",
-      "https://demo-images.example.com/products/PROD-083/img2.jpg",
-      "https://demo-images.example.com/products/PROD-083/img3.jpg"
+      "./assets/img/utencilios/IMG_8914.jpeg"
     ]
   },
   {
@@ -1297,9 +1134,7 @@
       "29": 1566
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-084/img1.jpg",
-      "https://demo-images.example.com/products/PROD-084/img2.jpg",
-      "https://demo-images.example.com/products/PROD-084/img3.jpg"
+      "./assets/img/utencilios/IMG_8915.jpeg"
     ]
   },
   {
@@ -1313,9 +1148,7 @@
       "3": 1714
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-085/img1.jpg",
-      "https://demo-images.example.com/products/PROD-085/img2.jpg",
-      "https://demo-images.example.com/products/PROD-085/img3.jpg"
+      "./assets/img/utencilios/IMG_8916.jpeg"
     ]
   },
   {
@@ -1329,9 +1162,7 @@
       "3": 932
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-086/img1.jpg",
-      "https://demo-images.example.com/products/PROD-086/img2.jpg",
-      "https://demo-images.example.com/products/PROD-086/img3.jpg"
+      "./assets/img/utencilios/IMG_8917.jpeg"
     ]
   },
   {
@@ -1349,9 +1180,7 @@
       "29": 874
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-087/img1.jpg",
-      "https://demo-images.example.com/products/PROD-087/img2.jpg",
-      "https://demo-images.example.com/products/PROD-087/img3.jpg"
+      "./assets/img/utencilios/IMG_8918.jpeg"
     ]
   },
   {
@@ -1369,9 +1198,7 @@
       "29": 1003
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-088/img1.jpg",
-      "https://demo-images.example.com/products/PROD-088/img2.jpg",
-      "https://demo-images.example.com/products/PROD-088/img3.jpg"
+      "./assets/img/utencilios/IMG_8911.jpeg"
     ]
   },
   {
@@ -1385,9 +1212,7 @@
       "3": 2170
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-089/img1.jpg",
-      "https://demo-images.example.com/products/PROD-089/img2.jpg",
-      "https://demo-images.example.com/products/PROD-089/img3.jpg"
+      "./assets/img/utencilios/IMG_8912.jpeg"
     ]
   },
   {
@@ -1402,9 +1227,7 @@
       "12": 866
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-090/img1.jpg",
-      "https://demo-images.example.com/products/PROD-090/img2.jpg",
-      "https://demo-images.example.com/products/PROD-090/img3.jpg"
+      "./assets/img/utencilios/IMG_8912.jpeg"
     ]
   },
   {
@@ -1422,9 +1245,7 @@
       "29": 582
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-091/img1.jpg",
-      "https://demo-images.example.com/products/PROD-091/img2.jpg",
-      "https://demo-images.example.com/products/PROD-091/img3.jpg"
+      "./assets/img/utencilios/IMG_8912.jpeg"
     ]
   },
   {
@@ -1438,9 +1259,7 @@
       "3": 1213
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-092/img1.jpg",
-      "https://demo-images.example.com/products/PROD-092/img2.jpg",
-      "https://demo-images.example.com/products/PROD-092/img3.jpg"
+      "./assets/img/utencilios/IMG_8913.jpeg"
     ]
   },
   {
@@ -1452,9 +1271,7 @@
     "saldo_a_financiar": 18223,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-093/img1.jpg",
-      "https://demo-images.example.com/products/PROD-093/img2.jpg",
-      "https://demo-images.example.com/products/PROD-093/img3.jpg"
+      "./assets/img/utencilios/IMG_8906.jpeg"
     ]
   },
   {
@@ -1472,9 +1289,7 @@
       "29": 1116
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-094/img1.jpg",
-      "https://demo-images.example.com/products/PROD-094/img2.jpg",
-      "https://demo-images.example.com/products/PROD-094/img3.jpg"
+      "./assets/img/utencilios/IMG_8906.jpeg"
     ]
   },
   {
@@ -1492,16 +1307,14 @@
       "29": 1281
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-095/img1.jpg",
-      "https://demo-images.example.com/products/PROD-095/img2.jpg",
-      "https://demo-images.example.com/products/PROD-095/img3.jpg"
+      "./assets/img/utencilios/IMG_8906.jpeg"
     ]
   },
   {
     "id": "PROD-096",
     "nombre": "Parrilla ACR Inxdl 31cm Ollas 20/30 RP",
     "categoria": "Ollas Grandes",
-    "precio_base": null,
+    "precio_base": 1979,
     "anticipo": null,
     "saldo_a_financiar": null,
     "mensualidades": {},
@@ -1522,9 +1335,7 @@
       "29": 1697
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-097/img1.jpg",
-      "https://demo-images.example.com/products/PROD-097/img2.jpg",
-      "https://demo-images.example.com/products/PROD-097/img3.jpg"
+      "./assets/img/utencilios/IMG_8910.jpeg"
     ]
   },
   {
@@ -1538,9 +1349,7 @@
       "3": 1369
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-098/img1.jpg",
-      "https://demo-images.example.com/products/PROD-098/img2.jpg",
-      "https://demo-images.example.com/products/PROD-098/img3.jpg"
+      "./assets/img/utencilios/IMG_8910.jpeg"
     ]
   },
   {
@@ -1558,9 +1367,7 @@
       "29": 2010
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-099/img1.jpg",
-      "https://demo-images.example.com/products/PROD-099/img2.jpg",
-      "https://demo-images.example.com/products/PROD-099/img3.jpg"
+      "./assets/img/utencilios/IMG_8899.jpeg"
     ]
   },
   {
@@ -1575,9 +1382,7 @@
       "12": 1006
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-100/img1.jpg",
-      "https://demo-images.example.com/products/PROD-100/img2.jpg",
-      "https://demo-images.example.com/products/PROD-100/img3.jpg"
+      "./assets/img/utencilios/IMG_8900.jpeg"
     ]
   },
   {
@@ -1593,9 +1398,7 @@
       "18": 947
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-101/img1.jpg",
-      "https://demo-images.example.com/products/PROD-101/img2.jpg",
-      "https://demo-images.example.com/products/PROD-101/img3.jpg"
+      "./assets/img/utencilios/IMG_8901.jpeg" 
     ]
   },
   {
@@ -1613,9 +1416,7 @@
       "29": 842
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-102/img1.jpg",
-      "https://demo-images.example.com/products/PROD-102/img2.jpg",
-      "https://demo-images.example.com/products/PROD-102/img3.jpg"
+      "./assets/img/utencilios/IMG_8902.jpeg" 
     ]
   },
   {
@@ -1629,9 +1430,7 @@
       "3": 2338
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-103/img1.jpg",
-      "https://demo-images.example.com/products/PROD-103/img2.jpg",
-      "https://demo-images.example.com/products/PROD-103/img3.jpg"
+      "./assets/img/utencilios/IMG_8903.jpeg"
     ]
   },
   {
@@ -1646,9 +1445,7 @@
       "12": 914
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-104/img1.jpg",
-      "https://demo-images.example.com/products/PROD-104/img2.jpg",
-      "https://demo-images.example.com/products/PROD-104/img3.jpg"
+      "./assets/img/utencilios/IMG_8904.jpeg"
     ]
   },
   {
@@ -1664,9 +1461,7 @@
       "18": 834
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-105/img1.jpg",
-      "https://demo-images.example.com/products/PROD-105/img2.jpg",
-      "https://demo-images.example.com/products/PROD-105/img3.jpg"
+      "./assets/img/utencilios/IMG_8905.jpeg"
     ]
   },
   {
@@ -1678,9 +1473,7 @@
     "saldo_a_financiar": null,
     "mensualidades": {},
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-106/img1.jpg",
-      "https://demo-images.example.com/products/PROD-106/img2.jpg",
-      "https://demo-images.example.com/products/PROD-106/img3.jpg"
+      "./assets/img/utencilios/IMG_8893.jpeg"
     ]
   },
   {
@@ -1698,9 +1491,7 @@
       "29": 2057
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-107/img1.jpg",
-      "https://demo-images.example.com/products/PROD-107/img2.jpg",
-      "https://demo-images.example.com/products/PROD-107/img3.jpg"
+      "./assets/img/utencilios/IMG_8894.jpeg"
     ]
   },
   {
@@ -1718,9 +1509,7 @@
       "29": 842
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-108/img1.jpg",
-      "https://demo-images.example.com/products/PROD-108/img2.jpg",
-      "https://demo-images.example.com/products/PROD-108/img3.jpg"
+      "./assets/img/utencilios/IMG_8895.jpeg"
     ]
   },
   {
@@ -1736,9 +1525,7 @@
       "18": 957
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-109/img1.jpg",
-      "https://demo-images.example.com/products/PROD-109/img2.jpg",
-      "https://demo-images.example.com/products/PROD-109/img3.jpg"
+      "./assets/img/utencilios/IMG_8896.jpeg"
     ]
   },
   {
@@ -1753,9 +1540,7 @@
       "12": 1051
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-110/img1.jpg",
-      "https://demo-images.example.com/products/PROD-110/img2.jpg",
-      "https://demo-images.example.com/products/PROD-110/img3.jpg"
+      "./assets/img/utencilios/IMG_8897.jpeg"
     ]
   },
   {
@@ -1771,9 +1556,7 @@
       "18": 924
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-111/img1.jpg",
-      "https://demo-images.example.com/products/PROD-111/img2.jpg",
-      "https://demo-images.example.com/products/PROD-111/img3.jpg"
+      "./assets/img/utencilios/IMG_8898.jpeg" 
     ]
   },
   {
@@ -1791,9 +1574,7 @@
       "29": 2314
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-112/img1.jpg",
-      "https://demo-images.example.com/products/PROD-112/img2.jpg",
-      "https://demo-images.example.com/products/PROD-112/img3.jpg"
+      "./assets/img/utencilios/IMG_8898.jpeg"
     ]
   },
   {
@@ -1811,9 +1592,7 @@
       "29": 926
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-113/img1.jpg",
-      "https://demo-images.example.com/products/PROD-113/img2.jpg",
-      "https://demo-images.example.com/products/PROD-113/img3.jpg"
+      "./assets/img/utencilios/IMG_8898.jpeg"
     ]
   },
   {
@@ -1830,9 +1609,7 @@
       "24": 896
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-114/img1.jpg",
-      "https://demo-images.example.com/products/PROD-114/img2.jpg",
-      "https://demo-images.example.com/products/PROD-114/img3.jpg"
+      "./assets/img/utencilios/IMG_8898.jpeg"
     ]
   },
   {
@@ -1850,9 +1627,7 @@
       "29": 2823
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-115/img1.jpg",
-      "https://demo-images.example.com/products/PROD-115/img2.jpg",
-      "https://demo-images.example.com/products/PROD-115/img3.jpg"
+      "./assets/img/utencilios/IMG_8869.jpeg"
     ]
   },
   {
@@ -1870,9 +1645,7 @@
       "29": 2366
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-116/img1.jpg",
-      "https://demo-images.example.com/products/PROD-116/img2.jpg",
-      "https://demo-images.example.com/products/PROD-116/img3.jpg"
+      "./assets/img/utencilios/IMG_8870.jpeg"
     ]
   },
   {
@@ -1890,9 +1663,7 @@
       "29": 2031
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-117/img1.jpg",
-      "https://demo-images.example.com/products/PROD-117/img2.jpg",
-      "https://demo-images.example.com/products/PROD-117/img3.jpg"
+      "./assets/img/utencilios/IMG_8871.jpeg"
     ]
   },
   {
@@ -1910,9 +1681,7 @@
       "29": 1216
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-118/img1.jpg",
-      "https://demo-images.example.com/products/PROD-118/img2.jpg",
-      "https://demo-images.example.com/products/PROD-118/img3.jpg"
+      "./assets/img/utencilios/IMG_8872.jpeg"
     ]
   },
   {
@@ -1927,9 +1696,7 @@
       "12": 963
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-119/img1.jpg",
-      "https://demo-images.example.com/products/PROD-119/img2.jpg",
-      "https://demo-images.example.com/products/PROD-119/img3.jpg"
+      "./assets/img/utencilios/IMG_8873.jpeg"
     ]
   },
   {
@@ -1945,9 +1712,7 @@
       "18": 841
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-120/img1.jpg",
-      "https://demo-images.example.com/products/PROD-120/img2.jpg",
-      "https://demo-images.example.com/products/PROD-120/img3.jpg"
+      "./assets/img/utencilios/IMG_8875.jpeg"
     ]
   },
   {
@@ -1961,9 +1726,7 @@
       "3": 1556
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-121/img1.jpg",
-      "https://demo-images.example.com/products/PROD-121/img2.jpg",
-      "https://demo-images.example.com/products/PROD-121/img3.jpg"
+      "./assets/img/utencilios/IMG_8876.jpeg"
     ]
   },
   {
@@ -1979,9 +1742,7 @@
       "18": 814
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-122/img1.jpg",
-      "https://demo-images.example.com/products/PROD-122/img2.jpg",
-      "https://demo-images.example.com/products/PROD-122/img3.jpg"
+      "./assets/img/utencilios/IMG_8884.jpeg"
     ]
   },
   {
@@ -1999,9 +1760,7 @@
       "29": 1183
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-123/img1.jpg",
-      "https://demo-images.example.com/products/PROD-123/img2.jpg",
-      "https://demo-images.example.com/products/PROD-123/img3.jpg"
+      "./assets/img/utencilios/IMG_8885.jpeg"
     ]
   },
   {
@@ -2015,9 +1774,7 @@
       "3": 2244
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-124/img1.jpg",
-      "https://demo-images.example.com/products/PROD-124/img2.jpg",
-      "https://demo-images.example.com/products/PROD-124/img3.jpg"
+      "./assets/img/utencilios/IMG_8886.jpeg"
     ]
   },
   {
@@ -2031,9 +1788,7 @@
       "3": 1091
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-125/img1.jpg",
-      "https://demo-images.example.com/products/PROD-125/img2.jpg",
-      "https://demo-images.example.com/products/PROD-125/img3.jpg"
+      "./assets/img/utencilios/IMG_8887.jpeg"
     ]
   },
   {
@@ -2047,9 +1802,7 @@
       "3": 1216
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-126/img1.jpg",
-      "https://demo-images.example.com/products/PROD-126/img2.jpg",
-      "https://demo-images.example.com/products/PROD-126/img3.jpg"
+      "./assets/img/utencilios/IMG_8888.jpeg"
     ]
   },
   {
@@ -2063,9 +1816,7 @@
       "3": 1259
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-127/img1.jpg",
-      "https://demo-images.example.com/products/PROD-127/img2.jpg",
-      "https://demo-images.example.com/products/PROD-127/img3.jpg"
+      "./assets/img/utencilios/IMG_8891.jpeg"
     ]
   },
   {
@@ -2079,9 +1830,7 @@
       "3": 1247
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-128/img1.jpg",
-      "https://demo-images.example.com/products/PROD-128/img2.jpg",
-      "https://demo-images.example.com/products/PROD-128/img3.jpg"
+      "./assets/img/utencilios/IMG_8889.jpeg"
     ]
   },
   {
@@ -2095,9 +1844,7 @@
       "3": 1244
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-129/img1.jpg",
-      "https://demo-images.example.com/products/PROD-129/img2.jpg",
-      "https://demo-images.example.com/products/PROD-129/img3.jpg"
+      "./assets/img/utencilios/IMG_8892.jpeg"
     ]
   },
   {
@@ -2113,9 +1860,7 @@
       "18": 911
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-130/img1.jpg",
-      "https://demo-images.example.com/products/PROD-130/img2.jpg",
-      "https://demo-images.example.com/products/PROD-130/img3.jpg"
+      "./assets/img/utencilios/IMG_8877.jpeg" 
     ]
   },
   {
@@ -2132,9 +1877,7 @@
       "24": 870
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-131/img1.jpg",
-      "https://demo-images.example.com/products/PROD-131/img2.jpg",
-      "https://demo-images.example.com/products/PROD-131/img3.jpg"
+      "./assets/img/utencilios/IMG_8878.jpeg"
     ]
   },
   {
@@ -2152,9 +1895,7 @@
       "29": 900
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-132/img1.jpg",
-      "https://demo-images.example.com/products/PROD-132/img2.jpg",
-      "https://demo-images.example.com/products/PROD-132/img3.jpg"
+      "./assets/img/utencilios/IMG_8879.jpeg"
     ]
   },
   {
@@ -2172,9 +1913,7 @@
       "29": 951
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-133/img1.jpg",
-      "https://demo-images.example.com/products/PROD-133/img2.jpg",
-      "https://demo-images.example.com/products/PROD-133/img3.jpg"
+      "./assets/img/utencilios/IMG_8880.jpeg"
     ]
   },
   {
@@ -2190,9 +1929,7 @@
       "18": 893
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-134/img1.jpg",
-      "https://demo-images.example.com/products/PROD-134/img2.jpg",
-      "https://demo-images.example.com/products/PROD-134/img3.jpg"
+      "./assets/img/utencilios/IMG_8881.jpeg"
     ]
   },
   {
@@ -2210,9 +1947,7 @@
       "29": 869
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-135/img1.jpg",
-      "https://demo-images.example.com/products/PROD-135/img2.jpg",
-      "https://demo-images.example.com/products/PROD-135/img3.jpg"
+      "./assets/img/utencilios/IMG_8883.jpeg"
     ]
   },
   {
@@ -2230,9 +1965,7 @@
       "29": 5143
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-136/img1.jpg",
-      "https://demo-images.example.com/products/PROD-136/img2.jpg",
-      "https://demo-images.example.com/products/PROD-136/img3.jpg"
+      "./assets/img/utencilios/IMG_8864.jpeg"
     ]
   },
   {
@@ -2250,9 +1983,7 @@
       "29": 4577
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-137/img1.jpg",
-      "https://demo-images.example.com/products/PROD-137/img2.jpg",
-      "https://demo-images.example.com/products/PROD-137/img3.jpg"
+      "./assets/img/utencilios/IMG_8865.jpeg"
     ]
   },
   {
@@ -2270,9 +2001,7 @@
       "29": 3754
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-138/img1.jpg",
-      "https://demo-images.example.com/products/PROD-138/img2.jpg",
-      "https://demo-images.example.com/products/PROD-138/img3.jpg"
+      "./assets/img/utencilios/IMG_8866.jpeg"
     ]
   },
   {
@@ -2290,9 +2019,7 @@
       "29": 3292
     },
     "galeria_imagenes": [
-      "https://demo-images.example.com/products/PROD-139/img1.jpg",
-      "https://demo-images.example.com/products/PROD-139/img2.jpg",
-      "https://demo-images.example.com/products/PROD-139/img3.jpg"
+      "./assets/img/utencilios/IMG_8868.jpeg"
     ]
   }
 ]

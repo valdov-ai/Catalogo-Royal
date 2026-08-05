@@ -51,6 +51,20 @@ export const routes: Routes = [
       import('./pages/admin/admin.component').then(m => m.AdminComponent)
   },
   {
+    path: 'admin/nuevo',
+    canActivate: [authGuard, roleGuard],
+    data: { roles: ['admin'] },
+    loadComponent: () =>
+      import('./pages/admin/product-form/product-form.component').then(m => m.ProductFormComponent)
+  },
+  {
+    path: 'admin/editar/:id',
+    canActivate: [authGuard, roleGuard],
+    data: { roles: ['admin'] },
+    loadComponent: () =>
+      import('./pages/admin/product-form/product-form.component').then(m => m.ProductFormComponent)
+  },
+  {
     path: '**',
     redirectTo: 'home'
   }
