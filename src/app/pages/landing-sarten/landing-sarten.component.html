@@ -1,0 +1,112 @@
+<section class="ls">
+  <div class="ls__shell">
+    <header class="ls__top">
+      <div class="ls__logo">
+        <img
+          src="assets/img/royalprestige.svg"
+          alt="Royal Prestige"
+          loading="lazy" />
+      </div>
+      <span class="ls__badge">Campaña exclusiva</span>
+    </header>
+
+    <div class="ls__hero">
+      <!-- Lado video -->
+      <div class="ls__media">
+        <div class="ls__eyebrow">Cambia tu sartén, cuida lo que comes</div>
+        <h1 class="ls__title">Sartén seguro para una cocina de lujo</h1>
+        <p class="ls__subtitle">
+          Descubre cómo cocinar sin preocuparte por recubrimientos que se desgastan
+          y disfruta de una experiencia Royal Prestige en cada comida.
+        </p>
+
+        <div class="ls__video">
+          <iframe
+            src="./assets/video/campania.MP4"
+            title="Cambia tu sartén con Royal Prestige"
+            loading="lazy"
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <ul class="ls__highlights">
+          <li>Materiales diseñados para cuidar tu salud.</li>
+          <li>Distribución uniforme del calor y acabado premium.</li>
+          <li>Atención personalizada antes y después de la compra.</li>
+        </ul>
+      </div>
+
+      <!-- Lado formulario (protagonista) -->
+      <div class="ls__form-card">
+        <h2>Recibe una asesoría 1 a 1</h2>
+        <p>Déjanos tus datos y un asesor certificado te contactará sin costo.</p>
+
+        <form class="ls__form" (ngSubmit)="onSubmit()">
+            <label>
+                Nombre completo *
+                <input
+                type="text"
+                name="nombre"
+                placeholder="Ej. Ana López"
+                [ngModel]="lead().nombre"
+                (ngModelChange)="updateField('nombre', $event)"
+                required />
+            </label>
+
+            <label>
+                Correo electrónico *
+                <input
+                type="email"
+                name="email"
+                placeholder="tu@correo.com"
+                [ngModel]="lead().email"
+                (ngModelChange)="updateField('email', $event)"
+                required />
+            </label>
+
+            <label>
+                Teléfono (10 dígitos) *
+                <input
+                type="tel"
+                name="telefono"
+                maxlength="10"
+                placeholder="55 1234 5678"
+                [ngModel]="lead().telefono"
+                (ngModelChange)="updateField('telefono', $event)"
+                required />
+            </label>
+
+            <label>
+                Código Postal *
+                <input
+                type="text"
+                name="cp"
+                maxlength="5"
+                placeholder="Ej. 01180"
+                [ngModel]="lead().cp"
+                (ngModelChange)="updateField('cp', $event)"
+                required />
+            </label>
+            
+          <p class="ls__alert ls__alert--error" *ngIf="error()">{{ error() }}</p>
+          <p class="ls__alert ls__alert--success" *ngIf="success()">{{ success() }}</p>
+
+          <button type="submit" class="ls__submit" [disabled]="isSubmitting()">
+            {{ isSubmitting() ? 'Enviando...' : 'Quiero más información' }}
+          </button>
+
+          <p class="ls__privacy">
+            Usamos tus datos únicamente para contactarte sobre esta campaña.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Faja final muy breve -->
+    <footer class="ls__footer">
+      <span>Royal Prestige · Campaña limitada sujeta a disponibilidad.</span>
+    </footer>
+  </div>
+</section>

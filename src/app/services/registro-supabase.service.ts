@@ -33,6 +33,14 @@ export interface ProspectoPayload {
   mensaje: string;
 }
 
+export interface ReferidoLandingPayload {
+  nombre: string;
+  telefono: string;
+  email: string;
+  cp: string;
+  origen: string; // ej. 'landing_sarten'
+}
+
 @Injectable({ providedIn: 'root' })
 export class RegistroSupabaseService {
   private readonly SUPABASE_URL = 'https://xjzcphcywxrsvoavnhkd.supabase.co';
@@ -110,6 +118,30 @@ guardarReferido(clienteId: string, payload: ReferidoPayload): Observable<boolean
     );
 }
 
+ guardarReferidoLanding(payload: ReferidoLandingPayload): Observable<boolean> {
+    const body = {
+    cliente_id: "96020b51-096f-485e-8894-5b42ba94b55e",
+    nombre: payload.nombre,
+    telefono: (payload.telefono || '').replace(/\D/g, ''),
+    direccion: payload.cp,
+    email:payload.email,
+    observaciones: payload.origen
+  };
+
+  return this.http
+    .post(
+      `${this.SUPABASE_API_URL}/referidos`,
+      body,
+      { headers: this.headers() }
+    )
+    .pipe(
+      map(() => true),
+      catchError(err => {
+        console.error('Supabase referido error', err);
+        return of(false);
+      })
+    );
+  }
 
   obtenerIdRPOptions(): Observable<IdRPOption[]> {
     

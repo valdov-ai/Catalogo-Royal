@@ -15,6 +15,16 @@ export const routes: Routes = [
       import('./pages/home/home.component').then(m => m.HomeComponent)
   },
   {
+    path: 'cambia-tu-sarten',
+    loadComponent: () =>
+      import('./pages/landing-sarten/landing-sarten.component').then(m => m.LandingSartenComponent)
+  },
+  {
+    path: 'cambia-tu-sarten/gracias',
+    loadComponent: () =>
+      import('./pages/landing-sarten-gracias/landing-sarten-gracias.component').then(m => m.LandingSartenGraciasComponent)
+  },
+  {
     path: 'prospeccion',
     loadComponent: () =>
       import('./pages/prospeccion/prospeccion.component').then(m => m.ProspeccionComponent)

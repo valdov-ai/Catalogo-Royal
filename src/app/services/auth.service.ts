@@ -72,10 +72,10 @@ export class AuthService {
     return {
       id: data.id,
       email: data.email ?? '',
-      nombre: data.nombre ?? 'Usuario X',
+      nombre: data.nombre ?? '',
       role: data.role ?? 'user',
-      telefono: data.telefono ?? '00000000',
-      idrp: data.idrp ?? 'RP-00'
+      telefono: data.telefono ?? '',
+      idrp: data.idrp ?? ''
     };
   }
 
@@ -130,8 +130,8 @@ export class AuthService {
       email: user.email ?? '',
       nombre: (user.user_metadata?.['nombre'] as string) ?? user.email ?? 'Usuario',
       role: (user.user_metadata?.['role'] as string) ?? 'user',
-      telefono: (user.user_metadata?.['telefono'] as string) ?? '0000000000',
-      idrp: (user.user_metadata?.['idrp'] as string) ?? 'RP-000'
+      telefono: (user.user_metadata?.['telefono'] as string) ?? '',
+      idrp: (user.user_metadata?.['idrp'] as string) ?? ''
     };
   }
 

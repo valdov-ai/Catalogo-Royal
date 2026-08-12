@@ -1,0 +1,141 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #f5f7fb;
+  color: #1f2933;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.ls-th {
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ls-th__shell {
+  width: 100%;
+  max-width: 720px;
+}
+
+.ls-th__top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.ls-th__logo img {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+.ls-th__card {
+  background: #ffffff;
+  border-radius: 24px;
+  border: 1px solid #dde5f0;
+  padding: 2.25rem 2rem;
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.16);
+  text-align: center;
+}
+
+.ls-th__icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 1rem;
+  border-radius: 999px;
+  background: #e3f3e8;
+  color: #047857;
+  display: grid;
+  place-items: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.ls-th__card h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.8rem, 3vw, 2.2rem);
+  color: #14213d;
+}
+
+.ls-th__lead {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #4a5563;
+}
+
+.ls-th__text {
+  margin: 0 0 1.25rem;
+  font-size: 0.95rem;
+  color: #4a5563;
+}
+
+.ls-th__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.ls-th__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+}
+
+.ls-th__btn--primary {
+  background: #004a8f;
+  color: #f9fafb;
+  box-shadow: 0 14px 36px rgba(0, 74, 143, 0.4);
+}
+
+.ls-th__btn--primary:hover {
+  background: #00366a;
+  transform: translateY(-2px);
+}
+
+.ls-th__btn--secondary {
+  background: #ffffff;
+  color: #004a8f;
+  border-color: #ccd5e4;
+}
+
+.ls-th__btn--secondary:hover {
+  background: #edf2fb;
+  border-color: #004a8f;
+}
+
+.ls-th__note {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+@media (max-width: 640px) {
+  .ls-th {
+    padding: 2rem 1rem;
+  }
+
+  .ls-th__card {
+    padding: 2rem 1.5rem;
+    border-radius: 18px;
+  }
+
+  .ls-th__actions {
+    flex-direction: column;
+  }
+
+  .ls-th__btn {
+    width: 100%;
+  }
+}

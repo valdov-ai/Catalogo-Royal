@@ -8,11 +8,18 @@ export const authGuard: CanActivateFn = async (_route, state) => {
 
   const loggedIn = await auth.ensureSessionLoaded();
 
-  if (loggedIn) {
-    return true;
+  if (!loggedIn) {
+    return router.createUrlTree(['/login'], {
+      queryParams: { returnUrl: state.url }
+    });
   }
 
-  return router.createUrlTree(['/login'], {
-    queryParams: { returnUrl: state.url }
-  });
+  // Si el usuario está logueado pero no tiene perfil completo
+  if (!auth.isProfileComplete() && state.url !== '/completar-perfil') {
+    return router.createUrlTree(['/completar-perfil'], {
+      queryParams: { returnUrl: state.url }
+    });
+  }
+
+  return true;
 };
