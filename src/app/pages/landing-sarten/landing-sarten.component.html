@@ -5,43 +5,93 @@
         <img
           src="assets/img/royalprestige.svg"
           alt="Royal Prestige"
-          loading="lazy" />
+          width="180"
+          height="40" />
+          <p class="ls__label_logo">DISTRIBUIDOR AUTORIZADO</p>
       </div>
       <span class="ls__badge">Campaña exclusiva</span>
     </header>
 
+    
     <div class="ls__hero">
-      <!-- Lado video -->
       <div class="ls__media">
         <div class="ls__eyebrow">Cambia tu sartén, cuida lo que comes</div>
-        <h1 class="ls__title">Sartén seguro para una cocina de lujo</h1>
+        <h1 class="ls__title">El sartén que tu familia merece, con acero de grado quirúrgico</h1>
         <p class="ls__subtitle">
-          Descubre cómo cocinar sin preocuparte por recubrimientos que se desgastan
-          y disfruta de una experiencia Royal Prestige en cada comida.
+          Entrega tu sartén antiadherente actual y ahorra hasta
+          <strong>20% en tu nuevo Royal Prestige</strong> de acero quirúrgico
+          T-316. Sin recubrimientos que se rayan, se desprenden o terminan en
+          tu comida, y con garantía de 50 años por escrito.
         </p>
 
         <div class="ls__video">
-          <iframe
-            src="./assets/video/campania.MP4"
-            title="Cambia tu sartén con Royal Prestige"
-            loading="lazy"
-            frameborder="0"
-            allow="autoplay; encrypted-media; picture-in-picture"
-            allowfullscreen>
-          </iframe>
+          <video
+            #videoCampania
+            autoplay
+            [muted]="true"
+            loop
+            playsinline
+            controls
+            preload="auto"
+            poster="assets/img/campania-poster.jpg"
+            aria-label="Video de campaña Cambia tu sartén con Royal Prestige">
+            <source src="./assets/video/campania.mp4" type="video/mp4" />
+            Tu navegador no soporta la reproducción de video.
+            <a href="./assets/video/campania.mp4">Descarga el video aquí</a>.
+          </video>
+
+          <button
+            type="button"
+            class="ls__unmute"
+            (click)="toggleAudio()"
+            [attr.aria-label]="isMuted() ? 'Activar sonido del video' : 'Silenciar video'">
+            {{ isMuted() ? '🔇 Activar sonido' : '🔊 Silenciar' }}
+          </button>
         </div>
 
+        <h2 class="ls__benefits-title">Por qué conviene cambiar tu sartén hoy</h2>
         <ul class="ls__highlights">
-          <li>Materiales diseñados para cuidar tu salud.</li>
-          <li>Distribución uniforme del calor y acabado premium.</li>
-          <li>Atención personalizada antes y después de la compra.</li>
+          <li>
+            <strong>Acero quirúrgico T-316 en 5 capas:</strong> nunca se
+            desprende ni libera partículas en tus alimentos, a diferencia del
+            antiadherente convencional.
+          </li>
+          <li>
+            <strong>Cocina sin aceite ni agua:</strong> conserva más
+            vitaminas y minerales, y reduce el consumo de grasas añadidas.
+          </li>
+          <li>
+            <strong>Garantía de 50 años:</strong> un respaldo real, no letra
+            pequeña ni condiciones ocultas.
+          </li>
+          <li>
+            <strong>Calor uniforme de borde a borde:</strong> cocción pareja,
+            acabado premium y compatible con inducción.
+          </li>
         </ul>
+
+        <div class="ls__social-proof" role="group" aria-label="Testimonios de clientes">
+          <!--<blockquote>
+            "Cambié mi sartén rayado por uno Royal Prestige y la diferencia en
+            la cocción se nota desde el primer día. Ya no uso aceite para
+            nada."
+            <cite>— Ana López, CDMX</cite>
+          </blockquote>-->
+          <p class="ls__trust-line">
+            Más de 60 años equipando cocinas mexicanas, respaldados por una
+            garantía de 50 años.
+          </p>
+        </div>
       </div>
 
-      <!-- Lado formulario (protagonista) -->
       <div class="ls__form-card">
-        <h2>Recibe una asesoría 1 a 1</h2>
-        <p>Déjanos tus datos y un asesor certificado te contactará sin costo.</p>
+        <h2>Vive la Experiencia Royal, sin costo</h2>
+        <p>
+          Un asesor certificado te contactará para explicarte el proceso. Y, si
+          lo prefieres, agendar una demostración gratuita en la comodidad de
+          tu hogar, donde te mostrará en vivo cómo cocinar sin aceite ni agua.
+          Sin compromiso de compra.
+        </p>
 
         <form class="ls__form" (ngSubmit)="onSubmit()">
             <label>
@@ -89,13 +139,26 @@
                 (ngModelChange)="updateField('cp', $event)"
                 required />
             </label>
-            
+
           <p class="ls__alert ls__alert--error" *ngIf="error()">{{ error() }}</p>
           <p class="ls__alert ls__alert--success" *ngIf="success()">{{ success() }}</p>
 
           <button type="submit" class="ls__submit" [disabled]="isSubmitting()">
             {{ isSubmitting() ? 'Enviando...' : 'Quiero más información' }}
           </button>
+
+            <label class="ls__checkbox">
+              <input
+                type="checkbox"
+                name="consentimiento"
+                [ngModel]="lead().consentimiento"
+                (ngModelChange)="updateField('consentimiento', $event)"
+                required
+                  aria-required="true" /> He leído y acepto el
+                <a href="./aviso-de-privacidad" target="_blank" rel="noopener">
+                  Aviso de Privacidad
+                </a>
+            </label>
 
           <p class="ls__privacy">
             Usamos tus datos únicamente para contactarte sobre esta campaña.

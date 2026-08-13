@@ -27,10 +27,19 @@
 .header__brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 0px;
   font-weight: 800;
-  color: #0f172a;
+  color: #000000;
   cursor: pointer;
+  flex-direction: column;
+
+}
+
+.ls__label_logo{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-22px);
 }
 
 .header__dot {

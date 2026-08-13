@@ -15,6 +15,11 @@ export const routes: Routes = [
       import('./pages/home/home.component').then(m => m.HomeComponent)
   },
   {
+    path: 'aviso-de-privacidad',
+    loadComponent: () =>
+      import('./pages/aviso-privacidad/aviso-privacidad.component').then(m => m.AvisoPrivacidadComponent)
+  },
+  {
     path: 'cambia-tu-sarten',
     loadComponent: () =>
       import('./pages/landing-sarten/landing-sarten.component').then(m => m.LandingSartenComponent)

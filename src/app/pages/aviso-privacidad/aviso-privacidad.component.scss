@@ -1,0 +1,123 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #f5f7fb;
+  color: #1f2933;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.aviso {
+  padding: 2.25rem 1.5rem 2.75rem;
+}
+
+.aviso__shell {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.aviso__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.aviso__logo img {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+.aviso__title-block h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 3vw, 2.3rem);
+  color: #14213d;
+}
+
+.aviso__eyebrow {
+  margin: 0 0 0.15rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #004a8f;
+  font-weight: 600;
+}
+
+.aviso__card {
+  background: #ffffff;
+  border-radius: 24px;
+  border: 1px solid #dde5f0;
+  padding: 2rem 2rem 2.25rem;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+.aviso__card h2 {
+  margin: 1.3rem 0 0.4rem;
+  font-size: 1.15rem;
+  color: #004a8f;
+}
+
+.aviso__card h2:first-of-type {
+  margin-top: 1rem;
+}
+
+.aviso__card p {
+  margin: 0 0 0.7rem;
+  font-size: 0.96rem;
+  color: #4a5563;
+}
+
+.aviso__card ul {
+  margin: 0 0 0.8rem 1.1rem;
+  padding: 0;
+  color: #4a5563;
+  font-size: 0.94rem;
+}
+
+.aviso__card li {
+  margin-bottom: 0.2rem;
+}
+
+.aviso__last-update {
+  margin-top: 1.2rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.aviso__footer {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.88rem;
+}
+
+.aviso__link {
+  color: #004a8f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.aviso__link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .aviso {
+    padding: 1.8rem 1rem 2.25rem;
+  }
+
+  .aviso__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .aviso__card {
+    padding: 1.6rem 1.4rem 1.9rem;
+    border-radius: 18px;
+  }
+
+  .aviso__footer {
+    flex-direction: column;
+  }
+}

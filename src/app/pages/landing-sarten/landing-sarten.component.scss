@@ -29,6 +29,13 @@
   display: block;
 }
 
+.ls__label_logo{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-14px);
+}
+
 .ls__badge {
   padding: 0.3rem 0.7rem;
   border-radius: 999px;
@@ -213,6 +220,41 @@
   text-align: center;
 }
 
+/* Checkbox consentimiento */
+.ls__checkbox {
+  display: block !important;
+  grid-template-columns: 16px 1fr;
+  gap: 0.55rem;
+  align-items: start;
+  margin-top: 0.35rem;
+  font-size: 0.86rem;
+  color: #4b5563;
+  line-height: 1.35;
+  grid-auto-flow: column;
+    justify-content: stretch;
+    justify-items: end;
+    align-items: baseline;
+}
+
+.ls__checkbox input[type='checkbox'] {
+  margin: 0.15rem 0 0;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  accent-color: #004a8f;
+  cursor: pointer;
+}
+
+.ls__checkbox a {
+  color: #004a8f;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.ls__checkbox a:hover {
+  text-decoration-thickness: 2px;
+}
+
 /* Responsive */
 @media (max-width: 960px) {
   .ls__hero {
@@ -228,6 +270,10 @@
 @media (max-width: 640px) {
   .ls {
     padding: 1.25rem 1rem 2rem;
+  }
+
+  .ls__checkbox {
+    font-size: 0.84rem;
   }
 
   .ls__media,
