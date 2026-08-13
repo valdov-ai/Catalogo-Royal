@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, signal, ViewChild, ChangeDetectionStrategy,ElementRef } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink,Router } from '@angular/router';
+import { Title } from '@angular/platform-browser';
+import { Meta } from '@angular/platform-browser';
 import { RegistroSupabaseService } from '../../services/registro-supabase.service';
 
 interface LandingLead {
@@ -24,11 +26,22 @@ interface LandingLead {
 export class LandingSartenComponent {
   private readonly supabase = inject(RegistroSupabaseService);
   private readonly router = inject(Router);
+  private readonly title = inject(Title);
+  private readonly meta = inject(Meta);
   
   @ViewChild('videoCampania') videoCampania!: ElementRef<HTMLVideoElement>;
   isMuted = signal(true);
 
-  
+  constructor() {
+    this.title.setTitle('Cambia tu sartén!');
+    this.meta.updateTag({name: 'description',content: 'Cambia tu sartén!. Registra tus datos y recibe una asesoría personalizada y un regalo.'});
+    this.meta.updateTag({name: 'og:description',content: 'Cambia tu sartén!. Registra tus datos y recibe asesoría personalizada y un regalo.'});
+    this.meta.updateTag({name: 'twitter:description',content: 'Cambia tu sartén!. Registra tus datos y recibe asesoría personalizada y un regalo.'});
+    this.meta.updateTag({property: 'og:description',content: 'Cambia tu sartén!. Registra tus datos y recibe asesoría personalizada y un regalo.'});
+    this.meta.updateTag({property: 'og:image',content: 'https://www.musemex.com/assets/img/campania.webp'});
+    this.meta.updateTag({property: 'og:url',content: 'https://www.musemex.com/cambia-tu-sarten/'});
+  }
+
   lead = signal<LandingLead>({
     nombre: '',
     email: '',
