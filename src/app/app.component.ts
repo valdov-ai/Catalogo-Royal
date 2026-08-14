@@ -23,7 +23,7 @@ export class AppComponent implements OnInit, OnDestroy {
   title = 'catalogo-utensilios';
   showHeader = signal<boolean>(true);
 
-  private rutasSinHeader = ['/prospeccion','/cambia-tu-sarten','/cambia-tu-sarten/gracias'];
+  private rutasSinHeader = ['/prospeccion','/cambia-tu-sarten','/cambia-tu-sarten#formulario','/cambia-tu-sarten/gracias'];
 
   constructor(private router: Router) {
     this.router.events

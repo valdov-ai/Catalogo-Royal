@@ -1,40 +1,27 @@
 <section class="ls">
   <div class="ls__shell">
     <header class="ls__top">
-      <div class="ls__logo">
-        <img
-          src="assets/img/royalprestige.svg"
-          alt="Royal Prestige"
+      <div class="ls__brand">
+        <img src="assets/img/royalprestige.svg" alt="Royal Prestige" loading="lazy" 
           width="180"
           height="40" />
           <p class="ls__label_logo">DISTRIBUIDOR AUTORIZADO</p>
       </div>
-      <span class="ls__badge">Campaña exclusiva</span>
+      <span class="ls__badge">Campaña especial</span>
     </header>
-
     
     <div class="ls__hero">
       <div class="ls__media">
         <div class="ls__eyebrow">Cambia tu sartén, cuida lo que comes</div>
         <h1 class="ls__title">El sartén que tu familia merece, con acero de grado quirúrgico</h1>
         <p class="ls__subtitle">
-          Entrega tu sartén antiadherente actual y ahorra hasta
-          <strong>20% en tu nuevo Royal Prestige</strong> de acero quirúrgico
+          <strong>Sistemas de cocina Royal Prestige</strong> de acero quirúrgico
           T-316. Sin recubrimientos que se rayan, se desprenden o terminan en
           tu comida, y con garantía de 50 años por escrito.
         </p>
 
         <div class="ls__video">
-          <video
-            #videoCampania
-            autoplay
-            [muted]="true"
-            loop
-            playsinline
-            controls
-            preload="auto"
-            poster="assets/img/campania-poster.jpeg"
-            aria-label="Video de campaña Cambia tu sartén con Royal Prestige">
+          <video #videoCampania autoplay [muted]="true" loop playsinline controls preload="auto" poster="assets/img/campania-poster.jpeg" aria-label="Video de campaña Cambia tu sartén con Royal Prestige">
             <source src="./assets/video/video-sarten.mp4" type="video/mp4" />
             Tu navegador no soporta la reproducción de video.
             <a href="./assets/video/video-sarten.mp4">Descarga el video aquí</a>.
@@ -45,7 +32,7 @@
             class="ls__unmute"
             (click)="toggleAudio()"
             [attr.aria-label]="isMuted() ? 'Activar sonido del video' : 'Silenciar video'">
-            {{ isMuted() ? '🔇 Activar sonido' : '🔊 Silenciar' }}
+            {{ isMuted() ? '🔇 ' : '🔊 ' }}
           </button>
         </div>
 
@@ -166,10 +153,12 @@
         </form>
       </div>
     </div>
-
-    <!-- Faja final muy breve -->
-    <footer class="ls__footer">
-      <span>Royal Prestige · Campaña limitada sujeta a disponibilidad.</span>
-    </footer>
+  </div>
+  <div class="ls__sticky-cta">
+    <div>
+      <strong>Solicita tu regalo</strong>
+      <span>Agenda tu cita y obten un obsequio.</span>
+    </div>
+    <a href="#formulario" class="ls__sticky-btn">Canjear</a>
   </div>
 </section>

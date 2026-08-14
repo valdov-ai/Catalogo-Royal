@@ -40,6 +40,7 @@ export class LandingSartenComponent {
     this.meta.updateTag({property: 'og:description',content: 'Cambia tu sartén!. Registra tus datos y recibe asesoría personalizada y un regalo.'});
     this.meta.updateTag({property: 'og:image',content: 'https://www.musemex.com/assets/img/campania.webp'});
     this.meta.updateTag({property: 'og:url',content: 'https://www.musemex.com/cambia-tu-sarten/'});
+    this.meta.updateTag({name: 'twitter:image',content: 'https://www.musemex.com/assets/img/campania.webp'});
   }
 
   lead = signal<LandingLead>({

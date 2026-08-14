@@ -6,15 +6,17 @@
 }
 
 .app-shell {
-   min-height: calc(100vh - 140px);
+  min-height: calc(100vh - 140px);
   display: flex;
   flex-direction: column;
+  border:solid 1px red;
 }
 
 .app-main {
   flex: 1;
   display: block;
   min-height: 0;
+  border:solid 1px rgb(24, 190, 58);
 }
 
 .app-main.without-header {
