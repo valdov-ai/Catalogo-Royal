@@ -42,6 +42,17 @@ export class LandingSartenComponent {
     this.meta.updateTag({property: 'og:url',content: 'https://www.musemex.com/cambia-tu-sarten/'});
     this.meta.updateTag({name: 'twitter:image',content: 'https://www.musemex.com/assets/img/campania.webp'});
   }
+  
+  showAviso = signal(false);
+
+  openAviso(event: Event): void {
+    event.preventDefault();
+    this.showAviso.set(true);
+  }
+
+  closeAviso(): void {
+    this.showAviso.set(false);
+  }
 
   lead = signal<LandingLead>({
     nombre: '',
