@@ -2,7 +2,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, signal, ViewChild, ChangeDetectionStrategy,ElementRef } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterLink,Router } from '@angular/router';
+import { RouterLink,Router, ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { Meta } from '@angular/platform-browser';
 import { RegistroSupabaseService } from '../../services/registro-supabase.service';
@@ -28,7 +28,12 @@ export class LandingSartenComponent {
   private readonly router = inject(Router);
   private readonly title = inject(Title);
   private readonly meta = inject(Meta);
-  
+  private readonly route = inject(ActivatedRoute);
+
+  utm = signal<{ source: string; medium: string; campaign: string; term: string; content: string }>({
+    source: '', medium: '', campaign: '', term: '', content: ''
+  });
+
   @ViewChild('videoCampania') videoCampania!: ElementRef<HTMLVideoElement>;
   isMuted = signal(true);
 
@@ -41,6 +46,14 @@ export class LandingSartenComponent {
     this.meta.updateTag({property: 'og:image',content: 'https://www.musemex.com/assets/img/campania.webp'});
     this.meta.updateTag({property: 'og:url',content: 'https://www.musemex.com/cambia-tu-sarten/'});
     this.meta.updateTag({name: 'twitter:image',content: 'https://www.musemex.com/assets/img/campania.webp'});
+
+    const params = this.route.snapshot.queryParamMap;
+    this.utm.set({
+      source: params.get('utm_source') ?? '',
+      medium: params.get('utm_medium') ?? '',
+      campaign: params.get('utm_campaign') ?? '',
+      term: params.get('utm_term') ?? '',
+      content: params.get('utm_content') ?? ''});
   }
   
   showAviso = signal(false);
@@ -125,7 +138,12 @@ export class LandingSartenComponent {
       telefono,
       email: data.email.trim(),
       cp: data.cp.trim(),
-      origen: 'landing_sarten'
+      origen: 'landing_sarten',
+      utm_source: this.utm().source,
+      utm_medium: this.utm().medium,
+      utm_campaign: this.utm().campaign,
+      utm_term: this.utm().term,
+      utm_content: this.utm().content
     }).subscribe(ok => {
       this.isSubmitting.set(false);
       if (ok) {

@@ -334,12 +334,14 @@
   right: 0;
   bottom: 0;
   z-index: 40;
-  display: none;
+  //display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 0.9rem 1rem;
-  background: rgba(250, 249, 246, 0.8);
+  background: #e8ff0e;
   backdrop-filter: blur(16px);
   border-top: 1px solid rgba(234, 232, 227, 0.9);
 }
@@ -351,7 +353,7 @@
 }
 
 .ls__sticky-cta span {
-  color: #666666;
+  color: #1c1c1c;
   font-size: 0.82rem;
 }
 

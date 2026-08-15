@@ -23,15 +23,19 @@ export class AppComponent implements OnInit, OnDestroy {
   title = 'catalogo-utensilios';
   showHeader = signal<boolean>(true);
 
-  private rutasSinHeader = ['/prospeccion','/cambia-tu-sarten','/cambia-tu-sarten#formulario','/cambia-tu-sarten/gracias'];
+  private readonly rutasSinHeader = new Set([
+    '/prospeccion',
+    '/cambia-tu-sarten',
+    '/cambia-tu-sarten#formulario',
+    '/cambia-tu-sarten/gracias']);
 
   constructor(private router: Router) {
-    this.router.events
+      this.router.events
       .pipe(filter(event => event instanceof NavigationEnd))
       .subscribe(() => {
-        const currentUrl = this.router.url;
-        this.showHeader.set(!this.rutasSinHeader.includes(currentUrl));
+        this.updateHeaderVisibility();
       });
+      
       effect(() => {
       const loggedIn = this.auth.isLoggedIn();
 
@@ -43,8 +47,20 @@ export class AppComponent implements OnInit, OnDestroy {
     });
   }
 
+  private updateHeaderVisibility(): void {
+  const urlTree = this.router.parseUrl(this.router.url);
+  const pathname = urlTree.root.children['primary']?.segments
+    .map(segment => segment.path)
+    .join('/') ?? '';
+
+  const normalizedPath = `/${pathname}`;
+
+  this.showHeader.set(!this.rutasSinHeader.has(normalizedPath));
+  }
+
   ngOnInit(): void {
     this.inactivity.restartIfLoggedIn();
+    this.updateHeaderVisibility();
   }
 
   ngOnDestroy(): void {

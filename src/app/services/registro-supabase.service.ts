@@ -39,6 +39,11 @@ export interface ReferidoLandingPayload {
   email: string;
   cp: string;
   origen: string; // ej. 'landing_sarten'
+  utm_source: string; 
+  utm_medium: string; 
+  utm_campaign: string; 
+  utm_term: string; 
+  utm_content: string; 
 }
 
 @Injectable({ providedIn: 'root' })
@@ -125,7 +130,12 @@ guardarReferido(clienteId: string, payload: ReferidoPayload): Observable<boolean
     telefono: (payload.telefono || '').replace(/\D/g, ''),
     direccion: payload.cp,
     email:payload.email,
-    observaciones: payload.origen
+    observaciones: payload.origen,
+    utm_source: payload.utm_source,
+    utm_medium: payload.utm_medium,
+    utm_campaign: payload.utm_campaign,
+    utm_term: payload.utm_term,
+    utm_content: payload.utm_content
   };
 
   return this.http
